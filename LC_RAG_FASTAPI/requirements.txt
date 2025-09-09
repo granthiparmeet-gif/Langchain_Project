@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-dotenv
+pydantic
+pydantic-settings
+
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-text-splitters
+
+faiss-cpu
+pypdf
+tiktoken
