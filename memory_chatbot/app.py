@@ -24,7 +24,7 @@ llm = ChatOpenAI(
 
 memory = ConversationBufferMemory()
 
-# Optional: custom prompt template
+
 prompt = PromptTemplate(
     input_variables=["history", "input"],
     template="""You are a helpful chatbot.
@@ -44,19 +44,17 @@ conversation = ConversationChain(
     prompt=prompt
 )
 
-print("🤖 Chatbot with memory (type 'exit' or Ctrl+C to quit)")
+print("🤖 Chatbot with memory (type 'exit' to quit)")
+
 try:
     while True:
         user_input = input("\nYou: ").strip()
-        if user_input.lower() in {"exit", "quit"}:
+        if user_input.lower() == "exit":
             print("Goodbye!")
             break
 
-        try:
-            response = conversation.run(user_input)
-            print(f"Bot ({datetime.now().strftime('%H:%M:%S')}): {response}")
-        except Exception as e:
-            print(f" Error: {e}")
+        response = conversation.run(user_input)
+        print("Bot:", response)
 
 except KeyboardInterrupt:
-    print("\n Chat ended by user.")
+    print("\nChat ended by user.")
