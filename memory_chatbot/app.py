@@ -7,21 +7,21 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationChain
 from langchain.prompts import PromptTemplate
 
-# Load API key from .env
+
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 if not api_key:
     print("Missing OPENAI_API_KEY in .env")
     sys.exit(1)
 
-# Initialize LLM with system prompt
+
 llm = ChatOpenAI(
     model="gpt-3.5-turbo",
     temperature=0,
     openai_api_key=api_key
 )
 
-# Setup memory
+
 memory = ConversationBufferMemory()
 
 # Optional: custom prompt template
@@ -37,7 +37,7 @@ User: {input}
 Bot:"""
 )
 
-# Conversation chain
+
 conversation = ConversationChain(
     llm=llm,
     memory=memory,
@@ -49,7 +49,7 @@ try:
     while True:
         user_input = input("\nYou: ").strip()
         if user_input.lower() in {"exit", "quit"}:
-            print("👋 Goodbye!")
+            print("Goodbye!")
             break
 
         try:
