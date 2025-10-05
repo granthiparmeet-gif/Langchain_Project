@@ -1,0 +1,2 @@
+LangChain makes it easy to build applications that use large language models.
+It provides tools for retrieval, memory, and chains — making complex AI systems modular and efficient.
