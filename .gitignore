@@ -27,3 +27,4 @@ pip-delete-this-directory.txt
 # VS Code / IDE
 .vscode/
 .idea/
+client_secret_*.json
