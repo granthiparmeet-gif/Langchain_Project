@@ -1,0 +1,45 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "extracted_package_dir": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/typing_extensions-4.12.2-py313hca03da5_0",
+  "files": [
+    "lib/python3.13/site-packages/__pycache__/typing_extensions.cpython-313.pyc",
+    "lib/python3.13/site-packages/typing_extensions-4.12.2.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/typing_extensions-4.12.2.dist-info/LICENSE",
+    "lib/python3.13/site-packages/typing_extensions-4.12.2.dist-info/METADATA",
+    "lib/python3.13/site-packages/typing_extensions-4.12.2.dist-info/RECORD",
+    "lib/python3.13/site-packages/typing_extensions-4.12.2.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/typing_extensions-4.12.2.dist-info/WHEEL",
+    "lib/python3.13/site-packages/typing_extensions-4.12.2.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/typing_extensions.py"
+  ],
+  "fn": "typing_extensions-4.12.2-py313hca03da5_0.conda",
+  "license": "PSF-2.0",
+  "license_family": "PSF",
+  "link": {
+    "source": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/typing_extensions-4.12.2-py313hca03da5_0",
+    "type": 1
+  },
+  "md5": "5fa12b16f8f99401a31952fddf110012",
+  "name": "typing_extensions",
+  "package_tarball_full_path": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/typing_extensions-4.12.2-py313hca03da5_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "defaults/osx-arm64::typing_extensions==4.12.2=py313hca03da5_0[md5=5fa12b16f8f99401a31952fddf110012]",
+  "sha256": "80e5994e1e5d30980e93e3e89d8d373dc399ebf32135b6fcf1fe8e3b9b7c64b0",
+  "size": 87505,
+  "subdir": "osx-arm64",
+  "timestamp": 1734714957000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/typing_extensions-4.12.2-py313hca03da5_0.conda",
+  "version": "4.12.2"
+}

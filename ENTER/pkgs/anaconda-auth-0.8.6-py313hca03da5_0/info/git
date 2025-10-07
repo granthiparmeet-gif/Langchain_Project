@@ -1,0 +1,18 @@
+==> /var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_c9m1keso7m/croot/anaconda-cloud-auth-split_1747863789573/_build_env/bin/git log -n1 <==
+commit 8db8d104771a56d9a17bb2f581031ac2c442e5d1
+Author: anaconda-renovate[bot] <117830771+anaconda-renovate[bot]@users.noreply.github.com>
+Date:   Fri May 16 07:05:59 2025 +0000
+
+    chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.11.10 (#80)
+    
+    Co-authored-by: anaconda-renovate[bot] <117830771+anaconda-renovate[bot]@users.noreply.github.com>
+==> /var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_c9m1keso7m/croot/anaconda-cloud-auth-split_1747863789573/_build_env/bin/git describe --tags --dirty <==
+v0.8.6
+==> /var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_c9m1keso7m/croot/anaconda-cloud-auth-split_1747863789573/_build_env/bin/git status <==
+HEAD detached at v0.8.6
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	metadata_conda_debug.yaml
+	output_script.sh
+
+nothing added to commit but untracked files present (use "git add" to track)

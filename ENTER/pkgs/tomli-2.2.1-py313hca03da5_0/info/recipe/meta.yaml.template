@@ -1,0 +1,48 @@
+{% set name = "tomli" %}
+{% set version = "2.2.1" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: cd45e1dc79c835ce60f7404ec8119f2eb06d38b1deba146f07ced3bbc44505ff
+
+build:
+  number: 0
+  skip: True  # [py<38]
+  script: {{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
+
+requirements:
+  host:
+    - flit-core >=3.2.0,<4
+    - pip
+    - python
+  run:
+    - python
+
+test:
+  imports:
+    - tomli
+  files:
+    - example.toml
+  requires:
+    - pip
+  commands:
+    - pip check
+    - python -c "from importlib.metadata import version; assert(version('{{ name }}')=='{{ version }}')"
+
+about:
+  home: https://github.com/hukkin/tomli
+  summary: A simple TOML parser
+  description: Tomli is a Python library for parsing TOML. It is fully compatible with TOML v1.0.0.
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  dev_url: https://github.com/hukkin/tomli
+  doc_url: https://github.com/hukkin/tomli/blob/master/README.md
+
+extra:
+  recipe-maintainers:
+    - thewchan

@@ -1,0 +1,23 @@
+{
+  "arch": "arm64",
+  "build": "h48ca7d4_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "fmt >=9.1.0,<10.0a0",
+    "libcxx >=14.0.6"
+  ],
+  "fn": "spdlog-1.11.0-h48ca7d4_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "ced29324af01e0d4ecf4dd2205b9aabe",
+  "name": "spdlog",
+  "platform": "darwin",
+  "sha256": "38dae4deab989c78c9a150bf3652e8638da63c295f6e4bd3d2afdfe5c37d035c",
+  "size": 200321,
+  "subdir": "osx-arm64",
+  "timestamp": 1676361367000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/spdlog-1.11.0-h48ca7d4_0.conda",
+  "version": "1.11.0"
+}

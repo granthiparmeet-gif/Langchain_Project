@@ -1,0 +1,91 @@
+# This file created by conda-build 24.9.0
+# meta.yaml template originally from:
+# /Users/builder/cbouss/perseverance-python-buildout/aggregate/typer-feedstock/recipe, last modified Tue Oct  8 11:33:02 2024
+# ------------------------------------------------
+
+package:
+  name: typer
+  version: 0.9.0
+source:
+  sha256: 50922fd79aea2f4751a8e0408ff10d2662bd0c8bbfa84755a699f3bada2978b2
+  url: https://pypi.io/packages/source/t/typer/typer-0.9.0.tar.gz
+build:
+  number: '0'
+  script: /Users/builder/cbouss/perseverance-python-buildout/croot/typer_1728593478163/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python
+    -m pip install . -vv --no-deps --no-build-isolation
+  string: py313hca03da5_0
+requirements:
+  host:
+    - bzip2 1.0.8 h80987f9_6
+    - ca-certificates 2024.9.24 hca03da5_0
+    - expat 2.6.3 h313beb8_0
+    - flit-core 2.3.0 py_0
+    - libcxx 14.0.6 h848a8c0_0
+    - libffi 3.4.4 hca03da5_1
+    - libmpdec 4.0.0 h80987f9_0
+    - ncurses 6.4 h313beb8_0
+    - openssl 3.0.15 h80987f9_0
+    - pip 24.2 py313hca03da5_0
+    - python 3.13.0 h4862095_100_cp313
+    - python_abi 3.13 0_cp313
+    - pytoml 0.1.21 pyhd3eb1b0_0
+    - readline 8.2 h1a28f6b_0
+    - setuptools 75.1.0 py313hca03da5_0
+    - sqlite 3.45.3 h80987f9_0
+    - tk 8.6.14 h6ba3021_0
+    - tzdata 2024b h04d1e81_0
+    - wheel 0.44.0 py313hca03da5_0
+    - xz 5.4.6 h80987f9_1
+    - zlib 1.2.13 h18a0788_1
+  run:
+    - click >=7.1.1,<9.0.0
+    - colorama >=0.4.3,<0.5.0
+    - python >=3.13,<3.14.0a0
+    - python_abi 3.13.* *_cp313
+    - rich >=10.11.0,<14.0.0
+    - shellingham >=1.3.0,<2.0.0
+    - typing-extensions >=3.7.4.3
+test:
+  commands:
+    - pip check
+  imports:
+    - typer
+  requires:
+    - pip
+about:
+  description: 'Typer is library for building CLI applications that users will love
+    using and developers will love creating. Based on Python 3.6+ type hints.
+
+
+    The key features are:
+
+
+    Intuitive to write: Great editor support. Completion everywhere. Less time debugging.
+    Designed to be easy to use and learn. Less time reading docs.
+
+    Easy to use: It''s easy to use for the final users. Automatic help, and automatic
+    completion for all shells.
+
+    Short: Minimize code duplication. Multiple features from each parameter declaration.
+    Fewer bugs.
+
+    Start simple: The simplest example adds only 2 lines of code to your app: 1 import,
+    1 function call.
+
+    Grow large: Grow in complexity as much as you want, create arbitrarily complex
+    trees of commands and groups of subcommands, with options and arguments.
+
+    '
+  dev_url: https://github.com/tiangolo/typer
+  doc_url: https://typer.tiangolo.com
+  home: https://github.com/tiangolo/typer
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: A library for building CLI applications
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - bollwyvl
+    - dfornika

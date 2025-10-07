@@ -1,0 +1,9 @@
+include/simdjson.h
+lib/cmake/simdjson/simdjson-config-version.cmake
+lib/cmake/simdjson/simdjson-config.cmake
+lib/cmake/simdjson/simdjsonTargets-release.cmake
+lib/cmake/simdjson/simdjsonTargets.cmake
+lib/libsimdjson.23.0.0.dylib
+lib/libsimdjson.23.dylib
+lib/libsimdjson.dylib
+lib/pkgconfig/simdjson.pc

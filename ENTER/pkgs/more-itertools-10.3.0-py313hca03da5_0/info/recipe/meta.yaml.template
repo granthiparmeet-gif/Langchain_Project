@@ -1,0 +1,52 @@
+{% set name = "more-itertools" %}
+{% set version = "10.3.0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: e5d93ef411224fbcef366a6e8ddc4c5781bc6359d43412a65dd5964e46111463
+
+build:
+  number: 0
+  skip: true  # [py<38]
+  script: {{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
+
+requirements:
+  host:
+    - flit-core >=3.2,<4
+    - pip
+    - python
+  run:
+    - python
+
+test:
+  imports:
+    - more_itertools
+  commands:
+    - pip check
+    - python -m unittest discover --buffer -s=tests
+  requires:
+    - pip
+  source_files:
+    - tests
+
+about:
+  home: https://github.com/more-itertools/more-itertools
+  license_file: LICENSE
+  license: MIT
+  license_family: MIT
+  summary: More routines for operating on iterables, beyond itertools
+  description: |
+    Python's itertools library is a gem - you can compose elegant solutions for a variety 
+    of problems with the functions it provides. In more-itertools we collect additional 
+    building blocks, recipes, and routines for working with Python iterables.
+  dev_url: https://github.com/more-itertools/more-itertools
+  doc_url: https://more-itertools.readthedocs.io
+
+extra:
+  recipe-maintainers:
+    - pmlandwehr
+    - dbast

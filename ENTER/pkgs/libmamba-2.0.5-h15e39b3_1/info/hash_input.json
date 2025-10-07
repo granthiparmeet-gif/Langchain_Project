@@ -1,0 +1,10 @@
+{
+  "zstd": "1.5.2",
+  "cxx_compiler": "clangxx",
+  "openssl": "3.0",
+  "bzip2": "1.0",
+  "CONDA_BUILD_SYSROOT": "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+  "channel_targets": "defaults",
+  "target_platform": "osx-arm64",
+  "cxx_compiler_version": "14"
+}

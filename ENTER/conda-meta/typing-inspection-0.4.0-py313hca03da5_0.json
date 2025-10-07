@@ -1,0 +1,52 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313",
+    "typing_extensions >=4.12.0"
+  ],
+  "extracted_package_dir": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/typing-inspection-0.4.0-py313hca03da5_0",
+  "files": [
+    "lib/python3.13/site-packages/typing_inspection-0.4.0.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/typing_inspection-0.4.0.dist-info/METADATA",
+    "lib/python3.13/site-packages/typing_inspection-0.4.0.dist-info/RECORD",
+    "lib/python3.13/site-packages/typing_inspection-0.4.0.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/typing_inspection-0.4.0.dist-info/WHEEL",
+    "lib/python3.13/site-packages/typing_inspection-0.4.0.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/typing_inspection-0.4.0.dist-info/licenses/LICENSE",
+    "lib/python3.13/site-packages/typing_inspection/__init__.py",
+    "lib/python3.13/site-packages/typing_inspection/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/typing_inspection/__pycache__/introspection.cpython-313.pyc",
+    "lib/python3.13/site-packages/typing_inspection/__pycache__/typing_objects.cpython-313.pyc",
+    "lib/python3.13/site-packages/typing_inspection/introspection.py",
+    "lib/python3.13/site-packages/typing_inspection/py.typed",
+    "lib/python3.13/site-packages/typing_inspection/typing_objects.py",
+    "lib/python3.13/site-packages/typing_inspection/typing_objects.pyi"
+  ],
+  "fn": "typing-inspection-0.4.0-py313hca03da5_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/typing-inspection-0.4.0-py313hca03da5_0",
+    "type": 1
+  },
+  "md5": "2f728ffadcefdf80408a67b6acd87310",
+  "name": "typing-inspection",
+  "package_tarball_full_path": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/typing-inspection-0.4.0-py313hca03da5_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "defaults/osx-arm64::typing-inspection==0.4.0=py313hca03da5_0[md5=2f728ffadcefdf80408a67b6acd87310]",
+  "sha256": "31c67d6f000db9f1c50167e37f4075e9ef34739f4a609314743d1b3eb5ce6817",
+  "size": 33164,
+  "subdir": "osx-arm64",
+  "timestamp": 1746023580000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/typing-inspection-0.4.0-py313hca03da5_0.conda",
+  "version": "0.4.0"
+}

@@ -1,0 +1,23 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "constrains": [
+    "email-validator >=2.0.0"
+  ],
+  "depends": [
+    "annotated-types >=0.6.0",
+    "pydantic-core 2.33.2",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313",
+    "typing-extensions >=4.12.2",
+    "typing-inspection >=0.4.0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "pydantic",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1750769243523,
+  "version": "2.11.7"
+}

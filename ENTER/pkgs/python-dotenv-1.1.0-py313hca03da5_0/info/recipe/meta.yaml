@@ -1,0 +1,79 @@
+# This file created by conda-build 24.9.0
+# meta.yaml template originally from:
+# /var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_0bqseadoho/clone/recipe, last modified Fri Apr 25 14:43:58 2025
+# ------------------------------------------------
+
+package:
+  name: python-dotenv
+  version: 1.1.0
+source:
+  sha256: 2b9722774d3126917226cc39d0b63deb45bd9edacf8fa9b08aceee8e6d9a246d
+  url: https://github.com/theskumar/python-dotenv/archive/refs/tags/v1.1.0.tar.gz
+build:
+  entry_points:
+    - dotenv = dotenv.__main__:cli
+  number: '0'
+  script: /var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_0bqseadoho/croot/python-dotenv_1745610246418/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/bin/python
+    -m pip install . --no-deps --no-build-isolation --ignore-installed --no-cache-dir
+    -vv
+  string: py313hca03da5_0
+requirements:
+  host:
+    - bzip2 1.0.8 h80987f9_6
+    - ca-certificates 2025.2.25 hca03da5_0
+    - expat 2.7.1 h313beb8_0
+    - libcxx 14.0.6 h848a8c0_0
+    - libffi 3.4.4 hca03da5_1
+    - libmpdec 4.0.0 h80987f9_0
+    - ncurses 6.4 h313beb8_0
+    - openssl 3.0.16 h02f6b3c_0
+    - pip 25.0 py313hca03da5_0
+    - python 3.13.2 h4862095_100_cp313
+    - python_abi 3.13 0_cp313
+    - readline 8.2 h1a28f6b_0
+    - setuptools 75.8.0 py313hca03da5_0
+    - sqlite 3.45.3 h80987f9_0
+    - tk 8.6.14 h6ba3021_0
+    - tzdata 2025a h04d1e81_0
+    - wheel 0.45.1 py313hca03da5_0
+    - xz 5.6.4 h80987f9_1
+    - zlib 1.2.13 h18a0788_1
+  run:
+    - click >=5.0
+    - python >=3.13,<3.14.0a0
+    - python_abi 3.13.* *_cp313
+test:
+  commands:
+    - pip check
+    - pytest tests -vv -k "not (test_set_key_permission_error or test_set_key_unauthorized_file)"
+  imports:
+    - dotenv
+  requires:
+    - pip
+    - pytest >=3.9
+    - sh >2
+  source_files:
+    - tests
+about:
+  description: 'Python-dotenv reads key-value pairs from a .env file and can set them
+    as environment variables.
+
+    It helps in the development of applications following the 12-factor principles.
+
+    '
+  dev_url: https://github.com/theskumar/python-dotenv/
+  doc_url: https://github.com/theskumar/python-dotenv/tree/main/docs
+  home: https://saurabh-kumar.com/python-dotenv/
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: Get and set values in your .env file in local and production servers like
+    Heroku does.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 0b7e8f36-92cf-4dba-8c47-ff093f8ca06e
+  recipe-maintainers:
+    - proinsias
+  remote_url: git@github.com:AnacondaRecipes/python-dotenv-feedstock.git
+  sha: de34b41b8a4d3bbba0fd213281a2cee57acfccfd

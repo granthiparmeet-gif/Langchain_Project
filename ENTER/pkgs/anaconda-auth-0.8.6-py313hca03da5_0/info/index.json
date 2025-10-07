@@ -1,0 +1,30 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "constrains": [
+    "conda >=23.9.0",
+    "anaconda-cloud-auth >=0.8.2",
+    "conda-token >=0.6.0"
+  ],
+  "depends": [
+    "anaconda-cli-base >=0.5.2",
+    "cryptography >=3.4.0",
+    "keyring",
+    "pkce",
+    "pydantic",
+    "pyjwt",
+    "python >=3.13,<3.14.0a0",
+    "python-dotenv",
+    "python_abi 3.13.* *_cp313",
+    "requests",
+    "semver <4"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "anaconda-auth",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1747863969024,
+  "version": "0.8.6"
+}

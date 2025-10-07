@@ -1,0 +1,11 @@
+prefix=/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER
+exec_prefix=${prefix}
+includedir=/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/include
+libdir=/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/lib
+
+Name: Yaml-cpp
+Description: A YAML parser and emitter for C++
+Version: 0.8.0
+Requires:
+Libs: -L${libdir} -lyaml-cpp
+Cflags: -I${includedir}

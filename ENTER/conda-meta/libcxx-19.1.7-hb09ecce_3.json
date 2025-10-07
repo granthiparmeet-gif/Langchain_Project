@@ -1,0 +1,42 @@
+{
+  "arch": "arm64",
+  "build": "hb09ecce_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [
+    "clang 19.1.7",
+    "llvm-openmp 19.1.7",
+    "llvm 19.1.7",
+    "llvm-tools 19.1.7"
+  ],
+  "depends": [
+    "__osx >=11.1"
+  ],
+  "extracted_package_dir": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/libcxx-19.1.7-hb09ecce_3",
+  "files": [
+    "lib/libc++.1.0.dylib",
+    "lib/libc++.1.dylib"
+  ],
+  "fn": "libcxx-19.1.7-hb09ecce_3.conda",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/libcxx-19.1.7-hb09ecce_3",
+    "type": 1
+  },
+  "md5": "a7cd81c202a116ffba6244a879b5f3a0",
+  "name": "libcxx",
+  "package_tarball_full_path": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/libcxx-19.1.7-hb09ecce_3.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "defaults/osx-arm64::libcxx==19.1.7=hb09ecce_3[md5=a7cd81c202a116ffba6244a879b5f3a0]",
+  "sha256": "66a580618da64a2f44ade24d2424531ddc8e5d1a68d961fc9cac9e97c7f910bb",
+  "size": 322934,
+  "subdir": "osx-arm64",
+  "timestamp": 1755036952000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/libcxx-19.1.7-hb09ecce_3.conda",
+  "version": "19.1.7"
+}

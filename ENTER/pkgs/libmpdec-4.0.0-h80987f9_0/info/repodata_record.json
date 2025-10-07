@@ -1,0 +1,20 @@
+{
+  "arch": "arm64",
+  "build": "h80987f9_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [],
+  "fn": "libmpdec-4.0.0-h80987f9_0.conda",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "md5": "7b01d2d5e276a24dd44e7846406656ed",
+  "name": "libmpdec",
+  "platform": "darwin",
+  "sha256": "f9b80c20080496cc40ae74500a1944d6a30eadad138fefa8f300bc3a6a4e80b0",
+  "size": 70527,
+  "subdir": "osx-arm64",
+  "timestamp": 1726088461000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/libmpdec-4.0.0-h80987f9_0.conda",
+  "version": "4.0.0"
+}

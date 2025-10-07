@@ -1,0 +1,91 @@
+# This file created by conda-build 24.9.0
+# meta.yaml template originally from:
+# /var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/clone/recipe, last modified Tue Jul 22 04:25:58 2025
+# ------------------------------------------------
+
+package:
+  name: openssl
+  version: 3.0.17
+source:
+  sha256: dfdd77e4ea1b57ff3a6dbde6b0bdc3f31db5ac99e7fdd4eaf9e1fbb6ec2db8ce
+  url: https://github.com/openssl/openssl/releases/download/openssl-3.0.17/openssl-3.0.17.tar.gz
+build:
+  binary_has_prefix_files:
+    - lib/libcrypto.3.0.dylib
+    - lib/libcrypto.a
+  detect_binary_files_with_prefix: true
+  has_prefix_files:
+    - bin/c_rehash
+    - lib/pkgconfig/libcrypto.pc
+    - lib/pkgconfig/libssl.pc
+    - lib/pkgconfig/openssl.pc
+  no_link: lib/libcrypto.3.0.dylib
+  number: '0'
+  run_exports:
+    - openssl >=3.0.17,<4.0a0
+  string: h4ee41c1_0
+requirements:
+  build:
+    - cctools_osx-arm64 949.0.1 h69e4071_26
+    - clang 14.0.6 hca03da5_2
+    - clang-14 14.0.6 default_h1b80db6_2
+    - clang_osx-arm64 14.0.6 h9ff6fda_0
+    - clangxx 14.0.6 default_h1b80db6_2
+    - compiler-rt 14.0.6 h4ccfd99_0
+    - compiler-rt_osx-arm64 14.0.6 h4fb70ea_0
+    - ld64_osx-arm64 530 hac4b543_26
+    - ldid 2.1.5 h20b2a84_3
+    - libclang-cpp14 14.0.6 default_h1b80db6_2
+    - libcxx 14.0.6 h848a8c0_0
+    - libffi 3.4.4 hca03da5_1
+    - libllvm14 14.0.6 h19fdd8a_4
+    - llvm-tools 14.0.6 h7ec7a93_4
+    - make 4.3 h620ffc9_1
+    - perl 5.38.2 0_h80987f9_perl5
+    - tapi 1100.0.11 h8754e6a_1
+    - zlib 1.2.13 h18a0788_1
+  run:
+    - ca-certificates
+test:
+  commands:
+    - touch checksum.txt
+    - openssl sha256 checksum.txt
+    - openssl ecparam -name prime256v1
+    - python -c "import urllib.request; urllib.request.urlopen('https://pypi.org')"
+    - pkg-config --print-errors --exact-version "3.0.17" openssl
+  requires:
+    - pkg-config
+    - python 3.9.*
+about:
+  description: 'OpenSSL is a robust, commercial-grade, full-featured Open Source Toolkit
+
+    for the Transport Layer Security (TLS) protocol formerly known as the
+
+    Secure Sockets Layer (SSL) protocol. The protocol implementation is based
+
+    on a full-strength general purpose cryptographic library, which can also
+
+    be used stand-alone.
+
+    '
+  dev_url: https://github.com/openssl/openssl
+  doc_url: https://www.openssl.org/docs/man3.0/
+  home: https://www.openssl.org/
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE.txt
+  summary: OpenSSL is an open-source implementation of the SSL and TLS protocols
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 358cfdc1-c2bc-4141-8970-1ac33699f45a
+  recipe-maintainers:
+    - carlodri
+    - chenghlee
+    - jakirkham
+    - jjhelmus
+    - msarahan
+    - ocefpaf
+    - pelson
+  remote_url: git@github.com:AnacondaRecipes/openssl-feedstock.git
+  sha: 6d554b8d74cfd3cd5076f9100e76c40d0431c964

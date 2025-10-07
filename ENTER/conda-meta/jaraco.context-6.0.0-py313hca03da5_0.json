@@ -1,0 +1,47 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "extracted_package_dir": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/jaraco.context-6.0.0-py313hca03da5_0",
+  "files": [
+    "lib/python3.13/site-packages/jaraco.context-0.0.0.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/jaraco.context-0.0.0.dist-info/LICENSE",
+    "lib/python3.13/site-packages/jaraco.context-0.0.0.dist-info/METADATA",
+    "lib/python3.13/site-packages/jaraco.context-0.0.0.dist-info/RECORD",
+    "lib/python3.13/site-packages/jaraco.context-0.0.0.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/jaraco.context-0.0.0.dist-info/WHEEL",
+    "lib/python3.13/site-packages/jaraco.context-0.0.0.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/jaraco.context-0.0.0.dist-info/top_level.txt",
+    "lib/python3.13/site-packages/jaraco/context/__init__.py",
+    "lib/python3.13/site-packages/jaraco/context/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/jaraco/context/py.typed"
+  ],
+  "fn": "jaraco.context-6.0.0-py313hca03da5_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/jaraco.context-6.0.0-py313hca03da5_0",
+    "type": 1
+  },
+  "md5": "afce7aebb2a0c6a71c8e8bdff7b29dec",
+  "name": "jaraco.context",
+  "package_tarball_full_path": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/jaraco.context-6.0.0-py313hca03da5_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "defaults/osx-arm64::jaraco.context==6.0.0=py313hca03da5_0[md5=afce7aebb2a0c6a71c8e8bdff7b29dec]",
+  "sha256": "369bfd22686e54c56f41e1e18d60995f8f1d49e37fdbc5ef210d543170522ea0",
+  "size": 17212,
+  "subdir": "osx-arm64",
+  "timestamp": 1731716722000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/jaraco.context-6.0.0-py313hca03da5_0.conda",
+  "version": "6.0.0"
+}

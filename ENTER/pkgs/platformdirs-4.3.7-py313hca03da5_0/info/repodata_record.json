@@ -1,0 +1,23 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "fn": "platformdirs-4.3.7-py313hca03da5_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "28ff7509453478772ef7e7df8eab54cd",
+  "name": "platformdirs",
+  "platform": "darwin",
+  "sha256": "48b36b8f798f0cf7e87e7c7164061d416c6228775e5d168857f8c4cabb413f45",
+  "size": 43118,
+  "subdir": "osx-arm64",
+  "timestamp": 1744273183000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/platformdirs-4.3.7-py313hca03da5_0.conda",
+  "version": "4.3.7"
+}

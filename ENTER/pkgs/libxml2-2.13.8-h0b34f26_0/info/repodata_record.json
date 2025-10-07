@@ -1,0 +1,25 @@
+{
+  "arch": "arm64",
+  "build": "h0b34f26_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "icu >=73.1,<74.0a0",
+    "libiconv >=1.16,<2.0a0",
+    "xz >=5.6.4,<6.0a0",
+    "zlib >=1.2.13,<1.3.0a0"
+  ],
+  "fn": "libxml2-2.13.8-h0b34f26_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "6275aee264c740b353988ce0a3709c60",
+  "name": "libxml2",
+  "platform": "darwin",
+  "sha256": "af82f1d9cac7aae9bfe910500a88959c53373999211078f3ee128c4033106506",
+  "size": 628291,
+  "subdir": "osx-arm64",
+  "timestamp": 1745948110000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/libxml2-2.13.8-h0b34f26_0.conda",
+  "version": "2.13.8"
+}

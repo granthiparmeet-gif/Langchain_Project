@@ -1,0 +1,22 @@
+{
+  "arch": "arm64",
+  "build": "h48ca7d4_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "libcxx >=14.0.6"
+  ],
+  "fn": "simdjson-3.10.1-h48ca7d4_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "443db5b88521ce0e2aaeb77bcf8fb488",
+  "name": "simdjson",
+  "platform": "darwin",
+  "sha256": "80fdef44c1ea1d8a4ffa768444c116f711058b835c30ddbee929c8a309daf985",
+  "size": 220407,
+  "subdir": "osx-arm64",
+  "timestamp": 1734048107000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/simdjson-3.10.1-h48ca7d4_0.conda",
+  "version": "3.10.1"
+}

@@ -1,0 +1,24 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "mdurl >=0.1,<1",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "fn": "markdown-it-py-2.2.0-py313hca03da5_1.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "47396c7419b657a9ca362d0724d1b20b",
+  "name": "markdown-it-py",
+  "platform": "darwin",
+  "sha256": "a4a3b51a9facac93b86c960a9c875bdedeec67a346fd510ea33abf0e136c9c22",
+  "size": 139339,
+  "subdir": "osx-arm64",
+  "timestamp": 1728586336000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/markdown-it-py-2.2.0-py313hca03da5_1.conda",
+  "version": "2.2.0"
+}

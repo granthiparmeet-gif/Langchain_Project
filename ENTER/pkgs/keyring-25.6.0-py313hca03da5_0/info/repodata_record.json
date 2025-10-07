@@ -1,0 +1,28 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [
+    "shtab >=1.1.0"
+  ],
+  "depends": [
+    "jaraco.classes",
+    "jaraco.context",
+    "jaraco.functools",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "fn": "keyring-25.6.0-py313hca03da5_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "73c50ed513604538e09c54e96943ec0a",
+  "name": "keyring",
+  "platform": "darwin",
+  "sha256": "d4fb00a20d87380349ad484cea58d22bda710158aff2d864a3c101701510475e",
+  "size": 86070,
+  "subdir": "osx-arm64",
+  "timestamp": 1745484730000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/keyring-25.6.0-py313hca03da5_0.conda",
+  "version": "25.6.0"
+}

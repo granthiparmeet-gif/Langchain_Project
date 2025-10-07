@@ -1,0 +1,86 @@
+# This file created by conda-build 24.9.0
+# meta.yaml template originally from:
+# /var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_04lf4909tx/clone/recipe, last modified Thu Jul 17 12:32:51 2025
+# ------------------------------------------------
+
+package:
+  name: sqlite
+  version: 3.50.2
+source:
+  patches: null
+  sha256: 84a616ffd31738e4590b65babb3a9e1ef9370f3638e36db220ee0e73f8ad2156
+  url: https://www.sqlite.org/2025/sqlite-autoconf-3500200.tar.gz
+build:
+  number: '1'
+  run_exports:
+    - sqlite >=3.50.2,<4.0a0
+  string: h79febb2_1
+requirements:
+  build:
+    - cctools_osx-arm64 949.0.1 h69e4071_26
+    - clang 14.0.6 hca03da5_2
+    - clang-14 14.0.6 default_h1b80db6_2
+    - clang_osx-arm64 14.0.6 h9ff6fda_0
+    - clangxx 14.0.6 default_h1b80db6_2
+    - compiler-rt 14.0.6 h4ccfd99_0
+    - compiler-rt_osx-arm64 14.0.6 h4fb70ea_0
+    - ld64_osx-arm64 530 hac4b543_26
+    - ldid 2.1.5 h20b2a84_3
+    - libclang-cpp14 14.0.6 default_h1b80db6_2
+    - libcxx 14.0.6 h848a8c0_0
+    - libffi 3.4.4 hca03da5_1
+    - libllvm14 14.0.6 h19fdd8a_4
+    - llvm-tools 14.0.6 h7ec7a93_4
+    - macosx_deployment_target_osx-arm64 11.1 had524d6_1
+    - make 4.3 h620ffc9_1
+    - tapi 1100.0.11 h8754e6a_1
+    - zlib 1.2.13 h18a0788_1
+  host:
+    - ncurses 6.4 h313beb8_0
+    - readline 8.1.2 h1a28f6b_1
+    - zlib 1.2.13 h18a0788_1
+  run:
+    - __osx >=11.1
+    - ncurses >=6.4,<7.0a0
+    - readline >=8.1.2,<9.0a0
+    - zlib >=1.2.13,<1.3.0a0
+    - zlib >=1.2.13,<2.0a0
+test:
+  commands:
+    - sqlite3 --version
+    - test -f $PREFIX/bin/sqlite3
+    - test -f $PREFIX/lib/libsqlite3${SHLIB_EXT}
+    - test ! -f $PREFIX/lib/libsqlite3.a
+    - test -f $PREFIX/include/sqlite3.h
+    - test -f $PREFIX/include/sqlite3ext.h
+    - test -f $PREFIX/lib/pkgconfig/sqlite3.pc
+  requires: null
+about:
+  description: 'SQLite is a self-contained, high-reliability, embedded, full-featured,
+
+    public-domain, SQL database engine. It is the most used database engine
+
+    in the world.
+
+    '
+  dev_url: https://sqlite.org/src/dir?ci=trunk
+  doc_url: https://www.sqlite.org/docs.html
+  home: https://www.sqlite.org/
+  license: blessing
+  license_family: Other
+  license_file: LICENSE.md
+  summary: Implements a self-contained, zero-configuration, SQL database engine
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 04cdfaa1-6f02-47fb-b4f3-891e9609d9ea
+  recipe-maintainers:
+    - jakirkham
+    - jjhelmus
+    - mingwandroid
+    - msarahan
+    - ocefpaf
+    - snorfalorpagus
+    - xylar
+  remote_url: git@github.com:AnacondaRecipes/sqlite-feedstock.git
+  sha: ed1327734fac01064b6071338b3e662a65b4501f

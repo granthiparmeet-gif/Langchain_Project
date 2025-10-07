@@ -1,0 +1,149 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "52a099f71e704abd7bbb6ee427b47223946753fd259c5d3b282f1350b0e1ef5d",
+      "size_in_bytes": 846
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "57f1082513c8312eeb330d2d508b1d680e854b6d89ff92dd93ee5b58e16a9069",
+      "size_in_bytes": 2046
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "ef001b648f00d548cdfa3e3e6987faeaa071399d08a32d1037292463935c189a",
+      "size_in_bytes": 109
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "7f5e8ea8c2839b7bdcb0b8195ded57ba64d299a2c1df3fac33613ada4a9e82bb",
+      "size_in_bytes": 150
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "068ba74aa0549742ad32afa2aabe20eff208ca1968e7f3c08b09d8d8a0223665",
+      "size_in_bytes": 64
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/licenses/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "ee6f2c2b3c361f368c52c757d351adf1d829b6ab1b3e78dffd65221612806736",
+      "size_in_bytes": 1504
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "f0bfbba74fc71e9a8c35509997698382b2dfb2c7d9ad87026693625a0b97a4f3",
+      "size_in_bytes": 20
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "b7d299769fc322fbfdd64c8095ba9f5e4ae4cbfeb7aa2718ba3bc4fa777cc653",
+      "size_in_bytes": 93
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage/__pycache__/__init__.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "f04281b4f61307a65250e4eaff8961f35be69233a88080528e93b165e041eac1",
+      "size_in_bytes": 264
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage/__pycache__/_version.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "bc16fcd491609c0e943b33beb88a7dca4dfefb2fcc8bef8fac3c2626dcbc06ae",
+      "size_in_bytes": 547
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage/__pycache__/heartbeat.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "a662b490abb407ec37ca6dea4ee22ad843696722914f97652846e1b63b792323",
+      "size_in_bytes": 7638
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage/__pycache__/install.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "73baaed86b07e639eb59321e5a53a926754bc1924697ac80c7f15f62282956a9",
+      "size_in_bytes": 8035
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage/__pycache__/patch.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "8dea0730ce32d36837eafc3f935b8c03a51e72372c03e4cccdda51b7328cf158",
+      "size_in_bytes": 6851
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage/__pycache__/plugin.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "a71c81ed9b091e5e6fbbd527dd00541c832106d929df0cede451edc2b54bd163",
+      "size_in_bytes": 1028
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage/__pycache__/tokens.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "4b0775fb8ffd83e69f21b8b13e66065adad2a898acaf9fa99a209ae1e50ac14e",
+      "size_in_bytes": 13688
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage/__pycache__/utils.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "0023f4fa6956e07903d77b32e3de70da4fded825139d0927800a64cd8e342355",
+      "size_in_bytes": 9955
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage/_version.py",
+      "path_type": "hardlink",
+      "sha256": "89be7951f20834fdffc505d09275221913e9a7fe9f4877abf92342b8ffad02f0",
+      "size_in_bytes": 497
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage/heartbeat.py",
+      "path_type": "hardlink",
+      "sha256": "8268e7ca23df98b6590b0181219dca831d16deaef346671bde1600fc2ea9fd40",
+      "size_in_bytes": 5770
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage/patch.py",
+      "path_type": "hardlink",
+      "sha256": "b469aa221474838ba0126c8fc119ca3214be1cabfe55d45222d7c9144385e5df",
+      "size_in_bytes": 5718
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage/plugin.py",
+      "path_type": "hardlink",
+      "sha256": "7a05e2424f9d030cc3341dcca48b6751116c185e248e8e2aa86c6737f246dc2e",
+      "size_in_bytes": 649
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage/tokens.py",
+      "path_type": "hardlink",
+      "sha256": "830b8c84e09057ac9fc4c5e94205d98c4360bf4e6e373d93ce910632ae9bfa18",
+      "size_in_bytes": 10825
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_anon_usage/utils.py",
+      "path_type": "hardlink",
+      "sha256": "70c0c1eb58e8aa5fa37ee8b538a3d81b3b5095a9a32635e72dbcc984276dc74d",
+      "size_in_bytes": 10007
+    }
+  ],
+  "paths_version": 1
+}

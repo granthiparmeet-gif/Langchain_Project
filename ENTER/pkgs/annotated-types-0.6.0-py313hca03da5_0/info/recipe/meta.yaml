@@ -1,0 +1,83 @@
+# This file created by conda-build 24.9.0
+# meta.yaml template originally from:
+# /Users/builder/cbouss/perseverance-python-buildout/aggregate/annotated-types-feedstock/recipe, last modified Tue Oct  8 11:26:48 2024
+# ------------------------------------------------
+
+package:
+  name: annotated-types
+  version: 0.6.0
+source:
+  sha256: 563339e807e53ffd9c267e99fc6d9ea23eb8443c08f112651963e24e22f84a5d
+  url: https://pypi.io/packages/source/a/annotated_types/annotated_types-0.6.0.tar.gz
+build:
+  number: '0'
+  script: /Users/builder/cbouss/perseverance-python-buildout/croot/annotated-types_1728588668736/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python
+    -m pip install . --no-deps --no-build-isolation -vv
+  string: py313hca03da5_0
+requirements:
+  host:
+    - bzip2 1.0.8 h80987f9_6
+    - ca-certificates 2024.9.24 hca03da5_0
+    - expat 2.6.3 h313beb8_0
+    - hatchling 1.25.0 py313hca03da5_0
+    - libcxx 14.0.6 h848a8c0_0
+    - libffi 3.4.4 hca03da5_1
+    - libmpdec 4.0.0 h80987f9_0
+    - ncurses 6.4 h313beb8_0
+    - openssl 3.0.15 h80987f9_0
+    - packaging 24.1 py313hca03da5_0
+    - pathspec 0.10.3 py313hca03da5_0
+    - pip 24.2 py313hca03da5_0
+    - pluggy 1.0.0 py313hca03da5_1
+    - python 3.13.0 h4862095_100_cp313
+    - python_abi 3.13 0_cp313
+    - readline 8.2 h1a28f6b_0
+    - setuptools 75.1.0 py313hca03da5_0
+    - sqlite 3.45.3 h80987f9_0
+    - tk 8.6.14 h6ba3021_0
+    - trove-classifiers 2023.10.18 py313hca03da5_0
+    - tzdata 2024b h04d1e81_0
+    - wheel 0.44.0 py313hca03da5_0
+    - xz 5.4.6 h80987f9_1
+    - zlib 1.2.13 h18a0788_1
+  run:
+    - python >=3.13,<3.14.0a0
+    - python_abi 3.13.* *_cp313
+test:
+  commands:
+    - pip check
+    - pytest -v tests
+  imports:
+    - annotated_types
+  requires:
+    - pip
+    - pytest
+  source_files:
+    - tests
+about:
+  description: 'This package provides metadata objects which can be used to represent
+    common constraints such as upper and lower
+
+    bounds on scalar values and collection sizes, a Predicate marker for runtime checks,
+    and descriptions of how we
+
+    intend these metadata to be interpreted. In some cases, we also note alternative
+    representations which do not
+
+    require this package.
+
+    '
+  dev_url: https://github.com/annotated-types/annotated-types
+  doc_url: https://github.com/annotated-types/annotated-types
+  home: https://github.com/annotated-types/annotated-types
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Reusable constraint types to use with typing.Annotated
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - Zac-HD
+    - mattwthompson
+    - samuelcolvin

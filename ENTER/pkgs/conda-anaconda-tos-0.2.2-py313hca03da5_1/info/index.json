@@ -1,0 +1,19 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_1",
+  "build_number": 1,
+  "depends": [
+    "conda >=24.11",
+    "pydantic",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313",
+    "rich"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "conda-anaconda-tos",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1755123384495,
+  "version": "0.2.2"
+}

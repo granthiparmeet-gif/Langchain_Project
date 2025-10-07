@@ -1,0 +1,55 @@
+{
+  "arch": "arm64",
+  "build": "py313h80987f9_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "extracted_package_dir": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/ruamel.yaml.clib-0.2.12-py313h80987f9_0",
+  "files": [
+    "lib/python3.13/site-packages/_ruamel_yaml.cpython-313-darwin.so",
+    "lib/python3.13/site-packages/ruamel.yaml.clib-0.2.12.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/ruamel.yaml.clib-0.2.12.dist-info/LICENSE",
+    "lib/python3.13/site-packages/ruamel.yaml.clib-0.2.12.dist-info/METADATA",
+    "lib/python3.13/site-packages/ruamel.yaml.clib-0.2.12.dist-info/RECORD",
+    "lib/python3.13/site-packages/ruamel.yaml.clib-0.2.12.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/ruamel.yaml.clib-0.2.12.dist-info/WHEEL",
+    "lib/python3.13/site-packages/ruamel.yaml.clib-0.2.12.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/ruamel.yaml.clib-0.2.12.dist-info/top_level.txt"
+  ],
+  "fn": "ruamel.yaml.clib-0.2.12-py313h80987f9_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/ruamel.yaml.clib-0.2.12-py313h80987f9_0",
+    "type": 1
+  },
+  "md5": "32f5e1189379c31623dd7119bf754c74",
+  "name": "ruamel.yaml.clib",
+  "package_tarball_full_path": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/ruamel.yaml.clib-0.2.12-py313h80987f9_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.13/site-packages/_ruamel_yaml.cpython-313-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_d9xusw0yil/croot/ruamel.yaml.clib_1745937162586/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "72aa679097229f135c57465853d76fc41ab459016ee5a0bcb311e93cad967c6f",
+        "sha256_in_prefix": "0d4aeab6f1103a133d19f04c4e5f971640111b89159c3c7f883040e5d5863150",
+        "size_in_bytes": 371056
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "defaults/osx-arm64::ruamel.yaml.clib==0.2.12=py313h80987f9_0[md5=32f5e1189379c31623dd7119bf754c74]",
+  "sha256": "a257e8a953316eb74ef4404b5ac8f986930e839b1e010caf398ce7e9c12b59cf",
+  "size": 143680,
+  "subdir": "osx-arm64",
+  "timestamp": 1745937378000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/ruamel.yaml.clib-0.2.12-py313h80987f9_0.conda",
+  "version": "0.2.12"
+}

@@ -1,0 +1,101 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.13/site-packages/tomli-2.2.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.13/site-packages/tomli-2.2.1.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "size_in_bytes": 1072
+    },
+    {
+      "_path": "lib/python3.13/site-packages/tomli-2.2.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "b79dca17504eb3d9ae7fd701725e7bdc14c8b44a8a1f3f7d319bc906c6393d39",
+      "size_in_bytes": 10486
+    },
+    {
+      "_path": "lib/python3.13/site-packages/tomli-2.2.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "aaf22e055858e274c395776edfc134fdc629bf4a777527d4a74fa36fd23beaa4",
+      "size_in_bytes": 1094
+    },
+    {
+      "_path": "lib/python3.13/site-packages/tomli-2.2.1.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.13/site-packages/tomli-2.2.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+      "size_in_bytes": 81
+    },
+    {
+      "_path": "lib/python3.13/site-packages/tomli-2.2.1.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "3bb18f531865b62ee813066d35798981bb60aef027c27577668ee4bced5c8c8f",
+      "size_in_bytes": 136
+    },
+    {
+      "_path": "lib/python3.13/site-packages/tomli/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "3e1370fdec8b81d9fb31c27a9eb00df32226ddd5c2ef9bebd6c546555c034a90",
+      "size_in_bytes": 314
+    },
+    {
+      "_path": "lib/python3.13/site-packages/tomli/__pycache__/__init__.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "e6e2aed975765ad6facac2f6cce2e823118d2f737e407d2842cb0a6802a1d0c6",
+      "size_in_bytes": 293
+    },
+    {
+      "_path": "lib/python3.13/site-packages/tomli/__pycache__/_parser.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "6f2ac679803b30935126ff152c7f11290bc1cc80b68e5a50a32caa3c4ca6e646",
+      "size_in_bytes": 29536
+    },
+    {
+      "_path": "lib/python3.13/site-packages/tomli/__pycache__/_re.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "f644fe9ba5b1765180943787f060f456d5af2434a3e4dd382bc26abf062af3d4",
+      "size_in_bytes": 3982
+    },
+    {
+      "_path": "lib/python3.13/site-packages/tomli/__pycache__/_types.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "68d70394507d348a4642356a88a1f74902e034effd8a0680ddad4564001750f3",
+      "size_in_bytes": 321
+    },
+    {
+      "_path": "lib/python3.13/site-packages/tomli/_parser.py",
+      "path_type": "hardlink",
+      "sha256": "f70f0b1b48c1edfc26659581d2f5576de7a30c7725e00348271076b1c1270e50",
+      "size_in_bytes": 25591
+    },
+    {
+      "_path": "lib/python3.13/site-packages/tomli/_re.py",
+      "path_type": "hardlink",
+      "sha256": "b21e2c0434603bde0a259c0d22b81d73257fa906acb79d18bf3380506a510ca0",
+      "size_in_bytes": 3171
+    },
+    {
+      "_path": "lib/python3.13/site-packages/tomli/_types.py",
+      "path_type": "hardlink",
+      "sha256": "f864c6d9552a929c7032ace654ee05ef26ca75d21b027b801d77e65907138b74",
+      "size_in_bytes": 254
+    },
+    {
+      "_path": "lib/python3.13/site-packages/tomli/py.typed",
+      "path_type": "hardlink",
+      "sha256": "f0f8f2675695a10a5156fb7bd66bafbaae6a13e8d315990af862c792175e6e67",
+      "size_in_bytes": 26
+    }
+  ],
+  "paths_version": 1
+}

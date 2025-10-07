@@ -1,0 +1,157 @@
+{
+  "paths": [
+    {
+      "_path": "bin/pysemver",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_85wxqx9al6/croot/semver_1736541329514/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "c83c4c2e4ffccf1786379fa2b8e86584f1563c790178439ab8962d82743d8fcb",
+      "size_in_bytes": 459
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver-3.0.2.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver-3.0.2.dist-info/LICENSE.txt",
+      "path_type": "hardlink",
+      "sha256": "cda490c32e61d3884dc17791fc8078f2a3e564fba98dd18b4dc64eb2720b2b6f",
+      "size_in_bytes": 1496
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver-3.0.2.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "99c20da0a954a448abd5f6fceab2731303477d94c4601cc43a888190bbba1b12",
+      "size_in_bytes": 4953
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver-3.0.2.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "1e1257365a6877017e466076bdccb02f8c3a956caa7dc72b5ed0ff4cbb54e2c8",
+      "size_in_bytes": 1753
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver-3.0.2.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver-3.0.2.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "195f5a3138703ffe28342b6f102d9e737a9462eb6059e033925ae8ff49b85894",
+      "size_in_bytes": 91
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver-3.0.2.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "b565c0c4dd8a1f69f0a3c74e49532a1ebe9eae00e5a09c0dd2e49514678b5196",
+      "size_in_bytes": 137
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver-3.0.2.dist-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "42c580c1f130ab66dd26663c9661858e7bc0d608bcfed1ea411653cb1afd0888",
+      "size_in_bytes": 45
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver-3.0.2.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "a05275277349cec575c7e2fdd57cf8141958a55a8ef82af85047e3fa11afaaad",
+      "size_in_bytes": 7
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver/__about__.py",
+      "path_type": "hardlink",
+      "sha256": "99a637254cac2c33ebddccbef1889edf08df2b8c2f5769b6135b270d615337ce",
+      "size_in_bytes": 815
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "451063ea4bae61a098e41f602f1c04d21ee6781c2ead811b7d0667bfbb7590a3",
+      "size_in_bytes": 1269
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver/__main__.py",
+      "path_type": "hardlink",
+      "sha256": "faca061737343ace662feca0c935437b682f5a8cd83419f3b628f53686c4ebd1",
+      "size_in_bytes": 592
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver/__pycache__/__about__.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "46d6abcdf956e3134ca1828c80caacf24a98604abd2ab6c532c2e0d99bf3df90",
+      "size_in_bytes": 848
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver/__pycache__/__init__.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "5f9c6e2a0e3a713fba637e3ae1a1717e15f4c83d2fd0a540719f290ec2289559",
+      "size_in_bytes": 1217
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver/__pycache__/__main__.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "68a95e42f3b12d8ab4dadefb2765be01881743bae7a4095054366e1e8128ba4c",
+      "size_in_bytes": 1252
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver/__pycache__/_deprecated.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "9473bf7bd52177879de879f5204b7e927b0a8a2957a6b8535c0e0bd9f7ac18b3",
+      "size_in_bytes": 13279
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver/__pycache__/_types.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "ea11391a028cdb84ba311e73a5b26e0e2c3b1f9ff9a87136182259891bbf9223",
+      "size_in_bytes": 733
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver/__pycache__/cli.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "7eef0c79933a06551a86f1832cd77f6f4689104854a29978dc0a1fd2507fec57",
+      "size_in_bytes": 6840
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver/__pycache__/version.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "d1a7c3990ba9cd2eb0d030e69d83c691ab503d5903ac955d2379c95fecc9923c",
+      "size_in_bytes": 29531
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver/_deprecated.py",
+      "path_type": "hardlink",
+      "sha256": "c5cd71baa58b7e99b74b78b6a487a835668c2707a61b86be5bdaf401c9b6c61d",
+      "size_in_bytes": 11272
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver/_types.py",
+      "path_type": "hardlink",
+      "sha256": "f807dacd98279a631eed6b614b1fccfb0d410a7ab674f166cac8e6b533a6d687",
+      "size_in_bytes": 422
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver/cli.py",
+      "path_type": "hardlink",
+      "sha256": "1f0be99ea70df791b7388354e1c2e0a2e4470ad5a146cb8a8217e13d6b4639ec",
+      "size_in_bytes": 5189
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver/py.typed",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.13/site-packages/semver/version.py",
+      "path_type": "hardlink",
+      "sha256": "bb47fc1d7862ba5f11fd6b1aafe9aea56acc55a890fe98cbe693cc632ba18e6a",
+      "size_in_bytes": 24084
+    }
+  ],
+  "paths_version": 1
+}

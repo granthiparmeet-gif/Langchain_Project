@@ -1,0 +1,25 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [
+    "cryptography >=3.4.0"
+  ],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "fn": "pyjwt-2.10.1-py313hca03da5_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "3e1f22e52248332698c5d1c042f942b2",
+  "name": "pyjwt",
+  "platform": "darwin",
+  "sha256": "f99cf8cb5208d45261e3729a1df60a7e8ef9da382c7c763fc8cf8e027b1636d1",
+  "size": 87298,
+  "subdir": "osx-arm64",
+  "timestamp": 1739484698000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/pyjwt-2.10.1-py313hca03da5_0.conda",
+  "version": "2.10.1"
+}

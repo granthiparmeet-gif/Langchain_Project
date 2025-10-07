@@ -1,0 +1,26 @@
+{
+  "arch": "arm64",
+  "build": "h79febb2_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.1",
+    "ncurses >=6.4,<7.0a0",
+    "readline >=8.1.2,<9.0a0",
+    "zlib >=1.2.13,<1.3.0a0",
+    "zlib >=1.2.13,<2.0a0"
+  ],
+  "fn": "sqlite-3.50.2-h79febb2_1.conda",
+  "license": "blessing",
+  "license_family": "Other",
+  "md5": "35f90123a992e31873fdf1fe1f594001",
+  "name": "sqlite",
+  "platform": "darwin",
+  "sha256": "e4bd2098dbb54b5a9d1af899da86da6d4ed4d56afce0441b9ce2a2b51a9231ed",
+  "size": 1097273,
+  "subdir": "osx-arm64",
+  "timestamp": 1752773628000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/sqlite-3.50.2-h79febb2_1.conda",
+  "version": "3.50.2"
+}

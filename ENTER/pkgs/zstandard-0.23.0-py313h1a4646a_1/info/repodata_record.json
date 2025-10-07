@@ -1,0 +1,26 @@
+{
+  "arch": "arm64",
+  "build": "py313h1a4646a_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "cffi >=1.17",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313",
+    "zstd >=1.5.6,<1.5.7.0a0",
+    "zstd >=1.5.6,<1.6.0a0"
+  ],
+  "fn": "zstandard-0.23.0-py313h1a4646a_1.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "ed52e4e9ba5b42823ca5a97b338d684c",
+  "name": "zstandard",
+  "platform": "darwin",
+  "sha256": "bcb35e8646665f932c7b13317ad4f52d22f7b68ba927fb3f805071f30671065b",
+  "size": 383306,
+  "subdir": "osx-arm64",
+  "timestamp": 1731356514000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/zstandard-0.23.0-py313h1a4646a_1.conda",
+  "version": "0.23.0"
+}

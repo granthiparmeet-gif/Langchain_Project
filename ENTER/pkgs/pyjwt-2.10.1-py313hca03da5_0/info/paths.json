@@ -1,0 +1,209 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.13/site-packages/PyJWT-2.10.1.dist-info/AUTHORS.rst",
+      "path_type": "hardlink",
+      "sha256": "925ce43461029eedbf558ec0b7cf7fc4b045def5120ebb97937c70814071cf07",
+      "size_in_bytes": 322
+    },
+    {
+      "_path": "lib/python3.13/site-packages/PyJWT-2.10.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.13/site-packages/PyJWT-2.10.1.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "797a7a20231d4c433e9f1911db1731d06b5828b98f499819a034f7c0f56f5ce5",
+      "size_in_bytes": 1085
+    },
+    {
+      "_path": "lib/python3.13/site-packages/PyJWT-2.10.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "54253ecf113ede150bf4ed7eab525a1fad4eca280d5dc9c76b8411e842bf81bc",
+      "size_in_bytes": 3990
+    },
+    {
+      "_path": "lib/python3.13/site-packages/PyJWT-2.10.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "bc862291e02ceff7b925a3a0b4a8d9dd6fb21756832e8a65502b953b0f1e3b1a",
+      "size_in_bytes": 2211
+    },
+    {
+      "_path": "lib/python3.13/site-packages/PyJWT-2.10.1.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.13/site-packages/PyJWT-2.10.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
+      "size_in_bytes": 91
+    },
+    {
+      "_path": "lib/python3.13/site-packages/PyJWT-2.10.1.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "e0fa4a135e30d4d0c846996a90e4adb842869797cd769ff99a543b1e1e56b8d1",
+      "size_in_bytes": 95
+    },
+    {
+      "_path": "lib/python3.13/site-packages/PyJWT-2.10.1.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "44fe431cdc896ccab691ad0599f4e0a12690ce1ededebe57b825823bc6b4d24f",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "541daf14ab9ba138dc0c6799f2bf94a8afddcf736c412404ab24922026f2f178",
+      "size_in_bytes": 1711
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/__pycache__/__init__.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "866ffe811ee19c38f7a94d8c9a82fcc7bc60da48eea6f816ab04f9f94d13fa3e",
+      "size_in_bytes": 1604
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/__pycache__/algorithms.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "bfdd2fcf9e18e3c7cf8b4bfe3e8222bc99ae8187d5154f8340563ad03f9f0202",
+      "size_in_bytes": 34924
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/__pycache__/api_jwk.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "e88c7bf624f4b948d8d166193cbc49cfd99f42818a7b6165e49b0d1ab92ca981",
+      "size_in_bytes": 6948
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/__pycache__/api_jws.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "7a8d4b8161cbaa14c710eac2d9777c3cfd18dd2a929748898264b20982729b81",
+      "size_in_bytes": 13771
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/__pycache__/api_jwt.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "39b19c8ea39da85ba68caba98db5d4c688d74456697aed2a49af0b42cfecfc93",
+      "size_in_bytes": 15085
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/__pycache__/exceptions.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "7d0934d639ce3bae07dac7c92c1fc5b107b56dfa5087b296507ca25aa252f49b",
+      "size_in_bytes": 3954
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/__pycache__/help.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "a25a9ef8098bbebe3bffa32e23a09a549b9a47e6316d95558ef7d8d91c2ce2c6",
+      "size_in_bytes": 2176
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/__pycache__/jwk_set_cache.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "e2d7caca23ccd74df972f4c543a39b30c677203b70ed3647cd51d91e6c409755",
+      "size_in_bytes": 1812
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/__pycache__/jwks_client.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "24278380bd78dad82b4319c962699c3dc976a240f4250f35c877cc48aa684f87",
+      "size_in_bytes": 5773
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/__pycache__/types.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "0448ba0e4140e1db7c8ecdda693eb2587d34972aa2f27cc74f0a3538b4cb7b87",
+      "size_in_bytes": 295
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/__pycache__/utils.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "fef10ae4e195bf813d218e59120c74c7240350b25509cd7670c043682f893104",
+      "size_in_bytes": 5596
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/__pycache__/warnings.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "8bb0bc0f0e0ee683cee28846da609f9e69a58113297094cb76e197bdae4b3931",
+      "size_in_bytes": 408
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/algorithms.py",
+      "path_type": "hardlink",
+      "sha256": "70aafe5c48a87b4981b6a24c09a1c4b30a95380d59f0fbabb7949bdc18bee411",
+      "size_in_bytes": 30409
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/api_jwk.py",
+      "path_type": "hardlink",
+      "sha256": "e85d6beeb9a6f15e6a12704a03fc4c8d2f51ed5a0035ed7f04bd680f616b0231",
+      "size_in_bytes": 4451
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/api_jws.py",
+      "path_type": "hardlink",
+      "sha256": "68cf2fcea41fea646b030edb472f8ca23fe98d6b0a49543260af3de807cc8c95",
+      "size_in_bytes": 11762
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/api_jwt.py",
+      "path_type": "hardlink",
+      "sha256": "3864f886893597903a147fca75cad4e60eaee8443c07b7a6d2bf6418cf526200",
+      "size_in_bytes": 14512
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/exceptions.py",
+      "path_type": "hardlink",
+      "sha256": "6d420e27ebfdb63a294cb4be158393737905c7958fe4866dee4b0dfc71351bd4",
+      "size_in_bytes": 1211
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/help.py",
+      "path_type": "hardlink",
+      "sha256": "bc574dce342801c874e1708c6290a4c81d9b95aa8700602a42bb5ff6748f91d9",
+      "size_in_bytes": 1808
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/jwk_set_cache.py",
+      "path_type": "hardlink",
+      "sha256": "8412a637e82253bf86dfb2ff5ca81cfce66ed9a878c1d6e3d59346fc6928484f",
+      "size_in_bytes": 959
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/jwks_client.py",
+      "path_type": "hardlink",
+      "sha256": "a7d6fe21b42aa36b4481ef598adde848f04535e3eac21a3de952db9d4ac7516b",
+      "size_in_bytes": 4259
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/py.typed",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/types.py",
+      "path_type": "hardlink",
+      "sha256": "567846bff545bb96bbfe6acfa12081ec768d2eb25d84cf12ab5b127c483480b5",
+      "size_in_bytes": 99
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/utils.py",
+      "path_type": "hardlink",
+      "sha256": "8713a3bc3061781621cfe4483e2133ed0f3c7525124cccc474a13f5b0d95749c",
+      "size_in_bytes": 3640
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jwt/warnings.py",
+      "path_type": "hardlink",
+      "sha256": "e745d63a7c8db086aacd425393a5c7362203ca488befadc6600f763234ca9a89",
+      "size_in_bytes": 59
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,17 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "depends": [
+    "more-itertools",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "jaraco.functools",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1740408239828,
+  "version": "4.1.0"
+}

@@ -1,0 +1,25 @@
+{
+  "arch": "arm64",
+  "build": "py313h3eb5a62_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "libffi >=3.4,<4.0a0",
+    "pycparser",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "fn": "cffi-1.17.1-py313h3eb5a62_1.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "30ee3afb0f2c3c97820ce0ad5ac6474d",
+  "name": "cffi",
+  "platform": "darwin",
+  "sha256": "c3dcc98246c5b7049e0899e616ec445da9145f9145af1965ffec0e3fad8efc12",
+  "size": 303023,
+  "subdir": "osx-arm64",
+  "timestamp": 1736183008000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/cffi-1.17.1-py313h3eb5a62_1.conda",
+  "version": "1.17.1"
+}

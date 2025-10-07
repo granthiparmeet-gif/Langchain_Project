@@ -1,0 +1,91 @@
+# This file created by conda-build 24.9.0
+# meta.yaml template originally from:
+# /var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_f0f10r98sf/clone/recipe, last modified Mon Apr 14 15:55:18 2025
+# ------------------------------------------------
+
+package:
+  name: pygments
+  version: 2.19.1
+source:
+  sha256: 61c16d2a8576dc0649d9f39e089b5f02bcd27fba10d8fb4dcc28173f7a45151f
+  url: https://pypi.org/packages/source/p/pygments/pygments-2.19.1.tar.gz
+build:
+  entry_points:
+    - pygmentize = pygments.cmdline:main
+  number: '0'
+  script: /var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_f0f10r98sf/croot/pygments_1744664126614/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+    -m pip install . --no-deps --no-build-isolation
+  string: py313hca03da5_0
+requirements:
+  host:
+    - bzip2 1.0.8 h80987f9_6
+    - ca-certificates 2025.2.25 hca03da5_0
+    - expat 2.7.1 h313beb8_0
+    - hatchling 1.27.0 py313hca03da5_0
+    - libcxx 14.0.6 h848a8c0_0
+    - libffi 3.4.4 hca03da5_1
+    - libmpdec 4.0.0 h80987f9_0
+    - ncurses 6.4 h313beb8_0
+    - openssl 3.0.16 h02f6b3c_0
+    - packaging 24.2 py313hca03da5_0
+    - pathspec 0.10.3 py313hca03da5_0
+    - pip 25.0 py313hca03da5_0
+    - pluggy 1.5.0 py313hca03da5_0
+    - python 3.13.2 h4862095_100_cp313
+    - python_abi 3.13 0_cp313
+    - readline 8.2 h1a28f6b_0
+    - setuptools 75.8.0 py313hca03da5_0
+    - sqlite 3.45.3 h80987f9_0
+    - tk 8.6.14 h6ba3021_0
+    - trove-classifiers 2024.10.14 py313hca03da5_0
+    - tzdata 2025a h04d1e81_0
+    - wheel 0.45.1 py313hca03da5_0
+    - xz 5.6.4 h80987f9_1
+    - zlib 1.2.13 h18a0788_1
+  run:
+    - python >=3.13,<3.14.0a0
+    - python_abi 3.13.* *_cp313
+test:
+  commands:
+    - pip check
+    - pygmentize -h
+  imports:
+    - pygments
+    - pygments.filters
+    - pygments.formatters
+    - pygments.lexers
+    - pygments.plugin
+    - pygments.styles
+  requires:
+    - pip
+about:
+  description: 'This is the source of Pygments. It is
+
+    a generic syntax highlighter written in Python
+
+    that supports over 500 languages and text formats,
+
+    for use in code hosting, forums, wikis or other applications
+
+    that need to prettify source code.
+
+    '
+  dev_url: https://github.com/pygments/pygments
+  doc_url: https://pygments.org/docs/
+  home: https://pygments.org/
+  license: BSD-2-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: Pygments is a generic syntax highlighter suitable for use in code hosting,
+    forums, wikis or other applications that need to prettify source code.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: f00cacf5-1f87-4443-bc1b-cbe351a05be9
+  recipe-maintainers:
+    - jakirkham
+    - ocefpaf
+    - pelson
+    - scopatz
+  remote_url: git@github.com:AnacondaRecipes/pygments-feedstock.git
+  sha: 9cd7997112d0a0c3134405b11040580573387c68

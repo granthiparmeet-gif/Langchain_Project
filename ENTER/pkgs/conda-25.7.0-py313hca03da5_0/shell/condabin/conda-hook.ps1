@@ -1,0 +1,11 @@
+$Env:CONDA_EXE = "/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_3b7pmnimud/croot/conda_1754469522029/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/conda"
+$Env:_CONDA_EXE = "/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_3b7pmnimud/croot/conda_1754469522029/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/conda"
+$Env:_CE_M = $null
+$Env:_CE_CONDA = $null
+$Env:CONDA_PYTHON_EXE = "/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_3b7pmnimud/croot/conda_1754469522029/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/python"
+$Env:_CONDA_ROOT = "/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_3b7pmnimud/croot/conda_1754469522029/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol"
+$CondaModuleArgs = @{ChangePs1 = $False}
+
+Import-Module "$Env:_CONDA_ROOT\shell\condabin\Conda.psm1" -ArgumentList $CondaModuleArgs
+
+Remove-Variable CondaModuleArgs
