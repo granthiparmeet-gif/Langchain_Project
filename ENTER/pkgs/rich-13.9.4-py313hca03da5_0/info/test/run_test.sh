@@ -1,9 +1,3 @@
-
-
-set -ex
-
-
-
-pip check
-pytest -vv tests -k "not (test_markdown_render or test_syntax_highlight_ranges or test_option_no_wrap or test_python_render or test_card_render or test_brokenpipeerror or test_background_color_override_includes_padding)"
-exit 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e5df97cc97269176e6d8466633119a8e435a91deb8d64d3a8b09506d8bcc0b7
+size 251

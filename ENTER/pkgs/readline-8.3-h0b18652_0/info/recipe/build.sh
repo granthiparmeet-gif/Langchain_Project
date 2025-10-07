@@ -1,11 +1,3 @@
-#!/usr/bin/env bash
-
-./configure --prefix=${PREFIX}  \
-            --build=${BUILD}    \
-            --host=${HOST}      \
-            --enable-multibyte  \
-            --with-curses       \
-            --disable-install-examples  \
-            || { cat config.log; exit 1; }
-make SHLIB_LIBS="$(pkg-config --libs ncursesw)" -j${CPU_COUNT} ${VERBOSE_AT}
-make install
+version https://git-lfs.github.com/spec/v1
+oid sha256:32fc021108a1e06c3d2a290c8013b8bcdf54caf1b6142160b589c4b3057e59a8
+size 366

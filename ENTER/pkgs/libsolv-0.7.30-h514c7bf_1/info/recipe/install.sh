@@ -1,16 +1,3 @@
-#!/bin/bash
-echo "Building ${PKG_NAME}."
-
-cd build
-
-# Installing
-echo "Installing..."
-ninja install || exit 1
-
-if [[ "$PKG_NAME" == *static ]]
-then
-    # relying on conda to dedup package
-    echo "Doing nothing"
-else
-    rm -rf ${PREFIX}/lib/*a
-fi
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2513e5f8044e066e6ce5b1fdbaab952fb498309d36ff36586912978e2b8bcad
+size 249

@@ -1,10 +1,3 @@
-#!/bin/bash
-
-cmake -G "Ninja" \
-    -DCMAKE_INSTALL_PREFIX=$PREFIX \
-    $SRC_DIR \
-    -DCMAKE_INSTALL_LIBDIR=lib \
-    -DBUILD_TESTING=OFF \
-    -DJSON_MultipleHeaders=ON \
-    ${CMAKE_ARGS}
-ninja install
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b0682de35a474744bc05186bfba4b761b655fd9ab522f1fc1e8e078c0b06310
+size 207

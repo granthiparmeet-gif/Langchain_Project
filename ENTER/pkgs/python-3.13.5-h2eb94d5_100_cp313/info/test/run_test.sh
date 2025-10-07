@@ -1,30 +1,3 @@
-
-
-set -ex
-
-
-
-python -V
-python3 -V
-pydoc -h
-python3-config --help
-python -c "from zoneinfo import ZoneInfo; from datetime import datetime; dt = datetime(2020, 10, 31, 12, tzinfo=ZoneInfo('America/Los_Angeles')); print(dt.tzname())"
-python -m venv test-venv
-test-venv/bin/python -c "import ctypes"
-python -c "import sysconfig; print(sysconfig.get_config_var('CC'))"
-for f in ${CONDA_PREFIX}/lib/python*/_sysconfig*.py; do echo "Checking $f:"; if [[ `rg @[^@]*@ $f` ]]; then echo "FAILED ON $f"; cat $f; exit 1; fi; done
-test ! -f ${PREFIX}/lib/libpython${PKG_VERSION%.*}.a
-test ! -f ${PREFIX}/lib/libpython${PKG_VERSION%.*}.nolto.a
-pushd tests
-pushd prefix-replacement
-bash build-and-test.sh
-popd
-pushd cmake
-cmake -GNinja -DPY_VER=3.13.5 --debug-find --trace --debug-output --debug-trycompile .
-popd
-popd
-python run_test.py
-test ! -f default.profraw
-python3.1 --version
-python -c "from ctypes import CFUNCTYPE; CFUNCTYPE(None)(id)"
-exit 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:867e361252c571d330cb249462e3f0440e41d5aec89c513dafda80e108ddf8cc
+size 938

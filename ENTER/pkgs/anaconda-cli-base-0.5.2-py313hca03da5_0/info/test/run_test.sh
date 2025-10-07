@@ -1,13 +1,3 @@
-
-
-set -ex
-
-
-
-pip check
-anaconda -h
-anaconda -V
-python -c "from anaconda_cli_base import __version__; assert __version__ == \"0.5.2\""
-python -c "from importlib.metadata import version; assert(version('anaconda-cli-base')=='0.5.2')"
-pytest -v tests
-exit 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:d983a130f89884db24bb30d43ff73c4502c709b6e781e4c5bff706aa2aeae98b
+size 255

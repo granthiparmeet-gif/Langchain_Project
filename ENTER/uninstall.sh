@@ -1,14 +1,3 @@
-#!/bin/bash
-
-INSTDIR=$(cd "$(dirname "$0")" && pwd)
-
-printf "Are you sure you want to remove %s and all of its contents?\n" "${INSTDIR}"
-printf "[no] >>> "
-read -r answer
-answer=$(tr '[:upper:]' '[:lower:]' <<< "${answer}")
-if [[ "${answer}" != "yes" ]] && [[ "${answer}" != "y" ]]; then
-    printf "Aborting uninstallation\n"
-    exit 2
-fi
-
-"${INSTDIR}/_conda" constructor uninstall --prefix "${INSTDIR}" "$@"
+version https://git-lfs.github.com/spec/v1
+oid sha256:b38742dd5ffffab1f36dd6e004edbc5ea6e615df6ffa40d6bf0216d3955cf15b
+size 411

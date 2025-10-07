@@ -1,8 +1,3 @@
-#!/bin/bash
-
-# use the pip source to install itself
-PYTHONPATH="./src" $PYTHON -m pip install --no-deps --no-build-isolation . -vv
-
-cd $PREFIX/bin
-rm -f pip2* pip3*
-rm -f $SP_DIR/__pycache__/pkg_res*
+version https://git-lfs.github.com/spec/v1
+oid sha256:bbe3ac0c9e8f9b734010c73dcaf2295f8d3fc0b36001eca2c34fe24e8cc23013
+size 199

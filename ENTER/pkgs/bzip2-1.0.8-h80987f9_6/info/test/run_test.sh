@@ -1,22 +1,3 @@
-
-
-set -ex
-
-
-
-bzip2 --help
-test -f ${PREFIX}/bin/bunzip2
-test -f ${PREFIX}/bin/bzcat
-test -f ${PREFIX}/bin/bzcmp
-test -f ${PREFIX}/bin/bzdiff
-test -f ${PREFIX}/bin/bzegrep
-test -f ${PREFIX}/bin/bzfgrep
-test -f ${PREFIX}/bin/bzgrep
-test -f ${PREFIX}/bin/bzip2recover
-test -f ${PREFIX}/bin/bzip2
-test -f ${PREFIX}/bin/bzless
-test -f ${PREFIX}/bin/bzmore
-test -f ${PREFIX}/include/bzlib.h
-test -f ${PREFIX}/lib/libbz2.a
-test -f ${PREFIX}/lib/libbz2${SHLIB_EXT}
-exit 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:08469811c6646f2fe126509377ceba24179bb17f9cb546bdb0186953254a9462
+size 464

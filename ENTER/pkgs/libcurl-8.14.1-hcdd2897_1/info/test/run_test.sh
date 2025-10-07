@@ -1,13 +1,3 @@
-
-
-set -ex
-
-
-
-curl-config --features
-curl-config --protocols
-test -f ${PREFIX}/lib/libcurl${SHLIB_EXT}
-CURL_SSL_BACKENDS=$(curl-config --ssl-backends)
-if ! echo $CURL_SSL_BACKENDS | grep -q "OpenSSL"; then exit 1; fi
-if ! echo $CURL_SSL_BACKENDS | grep -q "Secure Transport"; then exit 1; fi
-exit 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e677acb48bb01cb45db6689409d5d3be9d7f75a1fdd1d3aa82de361bd3b3fc6
+size 298

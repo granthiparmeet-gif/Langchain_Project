@@ -1,6 +1,3 @@
-#!/bin/bash
-
-export SETUPTOOLS_DISABLE_VERSIONED_EASY_INSTALL_SCRIPT=1
-export DISTRIBUTE_DISABLE_VERSIONED_EASY_INSTALL_SCRIPT=1
-
-$PYTHON setup.py install --single-version-externally-managed --record=record.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e8f281e5f1ad8764a0a82093158a7154b6166175cfb766cacc3a2c95a3c0aee
+size 211

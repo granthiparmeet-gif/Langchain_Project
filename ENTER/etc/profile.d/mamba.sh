@@ -1,8 +1,3 @@
-export MAMBA_ROOT_PREFIX="/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER"
-__mamba_setup="$("/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/bin/mamba" shell hook --shell posix 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__mamba_setup"
-else
-    alias mamba="/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/bin/mamba"  # Fallback on help from mamba activate
-fi
-unset __mamba_setup
+version https://git-lfs.github.com/spec/v1
+oid sha256:8fc2c6ae53e88430c66f665b2e08d8f3512659e89792e3106779828de2e508e8
+size 402
