@@ -1,0 +1,73 @@
+# This file created by conda-build 24.9.0
+# meta.yaml template originally from:
+# /Users/builder/cbouss/perseverance-python-buildout/aggregate/jsonpatch-feedstock/recipe, last modified Tue Oct  8 11:29:03 2024
+# ------------------------------------------------
+
+package:
+  name: jsonpatch
+  version: '1.33'
+source:
+  sha256: 9fcd4009c41e6d12348b4a0ff2563ba56a2923a7dfee731d004e212e1ee5030c
+  url: https://pypi.io/packages/source/j/jsonpatch/jsonpatch-1.33.tar.gz
+build:
+  number: '1'
+  script: /Users/builder/cbouss/perseverance-python-buildout/croot/jsonpatch_1728594556110/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/bin/python
+    -m pip install . --no-deps --no-build-isolation -vv
+  string: py313hca03da5_1
+requirements:
+  host:
+    - bzip2 1.0.8 h80987f9_6
+    - ca-certificates 2024.9.24 hca03da5_0
+    - expat 2.6.3 h313beb8_0
+    - libcxx 14.0.6 h848a8c0_0
+    - libffi 3.4.4 hca03da5_1
+    - libmpdec 4.0.0 h80987f9_0
+    - ncurses 6.4 h313beb8_0
+    - openssl 3.0.15 h80987f9_0
+    - pip 24.2 py313hca03da5_0
+    - python 3.13.0 h4862095_100_cp313
+    - python_abi 3.13 0_cp313
+    - readline 8.2 h1a28f6b_0
+    - setuptools 75.1.0 py313hca03da5_0
+    - sqlite 3.45.3 h80987f9_0
+    - tk 8.6.14 h6ba3021_0
+    - tzdata 2024b h04d1e81_0
+    - wheel 0.44.0 py313hca03da5_0
+    - xz 5.4.6 h80987f9_1
+    - zlib 1.2.13 h18a0788_1
+  run:
+    - jsonpointer >=1.9
+    - python >=3.13,<3.14.0a0
+    - python_abi 3.13.* *_cp313
+test:
+  commands:
+    - pip check
+    - pytest tests.py
+  imports:
+    - jsonpatch
+  requires:
+    - pip
+    - pytest
+  source_files:
+    - tests.*
+about:
+  description: 'python-json-patch is a Python library for applying JSON patches (RFC
+    6902).
+
+    Python 2.7 and 3.4+ are supported. Tests are run on both CPython and PyPy.
+
+    '
+  dev_url: https://github.com/stefankoegl/python-json-patch
+  doc_url: https://python-json-patch.readthedocs.io
+  home: https://github.com/stefankoegl/python-json-patch
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: Apply JSON-Patches (RFC 6902)
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - anguslees
+    - pavelzw
+    - pmlandwehr

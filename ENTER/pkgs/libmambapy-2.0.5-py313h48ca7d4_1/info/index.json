@@ -1,0 +1,20 @@
+{
+  "arch": "arm64",
+  "build": "py313h48ca7d4_1",
+  "build_number": 1,
+  "depends": [
+    "fmt >=9.1.0,<10.0a0",
+    "libcxx >=14.0.6",
+    "libmamba 2.0.5 h15e39b3_1",
+    "pybind11-abi 5",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "libmambapy",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1734469824676,
+  "version": "2.0.5"
+}

@@ -1,0 +1,23 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "fn": "jsonpointer-3.0.0-py313hca03da5_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "7c575b82763fa50d3b784992d3119aaa",
+  "name": "jsonpointer",
+  "platform": "darwin",
+  "sha256": "533b82ccd026f257db9555f515dfac53ff1900515761ab516c446f82683cc799",
+  "size": 22776,
+  "subdir": "osx-arm64",
+  "timestamp": 1753788470000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/jsonpointer-3.0.0-py313hca03da5_0.conda",
+  "version": "3.0.0"
+}

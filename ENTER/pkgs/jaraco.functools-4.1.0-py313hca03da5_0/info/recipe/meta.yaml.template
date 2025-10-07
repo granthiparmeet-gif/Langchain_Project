@@ -1,0 +1,53 @@
+{% set name = "jaraco.functools" %}
+{% set version = "4.1.0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jaraco_functools-{{ version }}.tar.gz
+  sha256: 70f7e0e2ae076498e212562325e805204fc092d7b4c17e0e86c959e249701a9d
+
+build:
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  skip: True  # [py<38]
+
+requirements:
+  host:
+    - python
+    - pip
+    - setuptools_scm >=3.4.1
+    - toml
+    - wheel
+    - setuptools
+  run:
+    - python
+    - more-itertools
+
+test:
+  source_files:
+    - test_functools.py
+  imports:
+    - jaraco.functools
+  requires:
+    - pip
+    - pytest
+    - jaraco.classes
+  commands:
+    - pip check
+    - pytest -vv test_functools.py -k "not test_function_throttled"
+
+about:
+  home: https://github.com/jaraco/jaraco.functools
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Additional functools in the spirit of stdlib's functools.
+  doc_url: https://github.com/jaraco/jaraco.functools
+  dev_url: https://github.com/jaraco/jaraco.functools
+
+extra:
+  recipe-maintainers:
+    - carlodri

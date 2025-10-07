@@ -1,0 +1,24 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "cryptography >=41",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "fn": "conda-content-trust-0.2.0-py313hca03da5_1.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "58efa6f7b2f4be9785740621963b0201",
+  "name": "conda-content-trust",
+  "platform": "darwin",
+  "sha256": "2e4b0911082781676d289d51c1b8180eefbcca5787cff39dbf5db04f3ec96966",
+  "size": 62203,
+  "subdir": "osx-arm64",
+  "timestamp": 1728603304000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/conda-content-trust-0.2.0-py313hca03da5_1.conda",
+  "version": "0.2.0"
+}

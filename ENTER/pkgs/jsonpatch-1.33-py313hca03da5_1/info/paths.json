@@ -1,0 +1,87 @@
+{
+  "paths": [
+    {
+      "_path": "bin/jsondiff",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/builder/cbouss/perseverance-python-buildout/croot/jsonpatch_1728594556110/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "40b2f3710d975dc7c86b7336d2a2bf56a48c109a154e8b73648907fa92dff2ed",
+      "size_in_bytes": 1447
+    },
+    {
+      "_path": "bin/jsonpatch",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/builder/cbouss/perseverance-python-buildout/croot/jsonpatch_1728594556110/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+      "sha256": "202af9ce99c9577fde8c5756bab96ea307693671c7b32c16db82490d050fc1d7",
+      "size_in_bytes": 4108
+    },
+    {
+      "_path": "lib/python3.13/site-packages/__pycache__/jsonpatch.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "ee171dc3a0379c3fc13f33deca70088c4d6bc5bdfd5aeaa3fabf9311e3512b07",
+      "size_in_bytes": 35320
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/AUTHORS",
+      "path_type": "hardlink",
+      "sha256": "84eb449c119b7c37a02a3ccc0c4979bee549c9ccdb2363e5604da1a382e318d4",
+      "size_in_bytes": 140
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "4393eb6733fa1e367f41769b382f4f1be7bf0daeb1e243ed92b3f5d8bafd236f",
+      "size_in_bytes": 1481
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "2d30be1340216580c9dd97330bd49ae4f3e9340b379404c66e77e396d32e3e44",
+      "size_in_bytes": 2957
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "346410ab34f487d461377d9e633d1cd4b1d1a64f99220df9877d4224f8b0e423",
+      "size_in_bytes": 1032
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "0075fab56937a96b9c7bbbca2eb8fb967ba554711d5a896d81aba8f1b8025e05",
+      "size_in_bytes": 109
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "1ccac9cc88501d4a583ac441843fd19980474e36f2a4bc503eac61f4d014b8e1",
+      "size_in_bytes": 119
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "cdcbe223b321e00bef3c1a6029907311d81b561fdec2c7ef4b6b77fb072c9cde",
+      "size_in_bytes": 10
+    },
+    {
+      "_path": "lib/python3.13/site-packages/jsonpatch.py",
+      "path_type": "hardlink",
+      "sha256": "57be766f2e6f8d4ddc79dfd49e17352ed7768e07284b5da4aca69210fb3ba5fe",
+      "size_in_bytes": 29778
+    }
+  ],
+  "paths_version": 1
+}

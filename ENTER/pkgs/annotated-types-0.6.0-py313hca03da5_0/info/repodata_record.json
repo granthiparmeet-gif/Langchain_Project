@@ -1,0 +1,23 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "fn": "annotated-types-0.6.0-py313hca03da5_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "80f00597450c60bc2e4c5792349ca630",
+  "name": "annotated-types",
+  "platform": "darwin",
+  "sha256": "f82a4d5a4cf3bb1945c0ce27ce9f42e9756f150a7c04a9327d0d33c47f4704d8",
+  "size": 26270,
+  "subdir": "osx-arm64",
+  "timestamp": 1728588683000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/annotated-types-0.6.0-py313hca03da5_0.conda",
+  "version": "0.6.0"
+}

@@ -1,0 +1,90 @@
+# This file created by conda-build 24.9.0
+# meta.yaml template originally from:
+# /var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_0b8xdymgq4/clone/recipe, last modified Thu Jul 31 02:37:02 2025
+# ------------------------------------------------
+
+package:
+  name: ncurses
+  version: '6.5'
+source:
+  fn: ncurses-6.5.tar.gz
+  patches:
+    - clang.patch
+    - fix.patch
+  sha256: 136d91bc269a9a5785e5f9e980bc76ab57428f604ce3e5a5a90cebc767971cc6
+  url: https://invisible-mirror.net/archives/ncurses/ncurses-6.5.tar.gz
+build:
+  ignore_run_exports:
+    - libcxx
+    - libstdcxx-ng
+  number: '0'
+  run_exports:
+    - ncurses >=6.5,<7.0a0
+  string: hee39554_0
+requirements:
+  build:
+    - cctools_osx-arm64 949.0.1 h69e4071_26
+    - clang 14.0.6 hca03da5_2
+    - clang-14 14.0.6 default_h1b80db6_2
+    - clang_osx-arm64 14.0.6 h9ff6fda_0
+    - clangxx 14.0.6 default_h1b80db6_2
+    - clangxx_osx-arm64 14.0.6 h72866fe_0
+    - compiler-rt 14.0.6 h4ccfd99_0
+    - compiler-rt_osx-arm64 14.0.6 h4fb70ea_0
+    - ld64_osx-arm64 530 hac4b543_26
+    - ldid 2.1.5 h20b2a84_3
+    - libclang-cpp14 14.0.6 default_h1b80db6_2
+    - libcxx 14.0.6 h848a8c0_0
+    - libffi 3.4.4 hca03da5_1
+    - libllvm14 14.0.6 h19fdd8a_4
+    - libtool 2.4.7 h313beb8_0
+    - llvm-tools 14.0.6 h7ec7a93_4
+    - macosx_deployment_target_osx-arm64 11.1 had524d6_1
+    - make 4.3 h620ffc9_1
+    - patch 2.7.6 h1a28f6b_1001
+    - tapi 1100.0.11 h8754e6a_1
+    - zlib 1.2.13 h18a0788_1
+  host:
+    - libcxx 17.0.6 he5c5206_4
+    - libiconv 1.16 h80987f9_3
+    - pkg-config 0.29.2 h1a28f6b_0
+  run:
+    - __osx >=11.1
+test:
+  requires:
+    - pkg-config
+about:
+  description: 'The ncurses (new curses) library is a free software
+
+    emulation of curses in System V Release 4.0 (SVr4),
+
+    and more. It uses terminfo format, supports pads and
+
+    color and multiple highlights and forms characters and
+
+    function-key mapping, and has all the other SVr4-curses
+
+    enhancements over BSD curses. SVr4 curses is better
+
+    known today as X/Open Curses
+
+    '
+  dev_url: https://ncurses.scripts.mit.edu/?p=ncurses.git
+  doc_url: https://invisible-island.net/ncurses/NCURSES-Programming-HOWTO.html
+  home: https://invisible-island.net/ncurses/
+  license: MIT AND X11
+  license_family: MIT
+  license_file: COPYING
+  summary: Library for text-based user interfaces
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 0bf52686-d86f-4a57-b7d5-042e386efce8
+  recipe-maintainers:
+    - jakirkham
+    - jjhelmus
+  remote_url: git@github.com:AnacondaRecipes/ncurses-feedstock.git
+  sha: 2802c46611bf7ac9554fad40d891ae794e2bc024
+  skip-lints:
+    - build_tools_must_be_in_build
+    - host_section_needs_exact_pinnings

@@ -1,0 +1,61 @@
+# This file created by conda-build 24.9.0
+# meta.yaml template originally from:
+# /Users/builder/cbouss/perseverance-python-buildout/aggregate/jaraco.context-feedstock/recipe, last modified Fri Nov 15 11:33:54 2024
+# ------------------------------------------------
+
+package:
+  name: jaraco.context
+  version: 6.0.0
+source:
+  sha256: 2aa8ca1ac7301b9034c17fc7b0b444faea194c4ded2d6909fa9d8fe723aefee4
+  url: https://github.com/jaraco/jaraco.context/archive/refs/tags/v6.0.0.tar.gz
+build:
+  number: '0'
+  script: /Users/builder/cbouss/perseverance-python-buildout/croot/jaraco.context_1731716684676/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/python
+    -m pip install . -vv --no-deps --no-build-isolation
+  string: py313hca03da5_0
+requirements:
+  host:
+    - bzip2 1.0.8 h80987f9_6
+    - ca-certificates 2024.9.24 hca03da5_0
+    - expat 2.6.3 h313beb8_0
+    - libcxx 14.0.6 h848a8c0_0
+    - libffi 3.4.4 hca03da5_1
+    - libmpdec 4.0.0 h80987f9_0
+    - ncurses 6.4 h313beb8_0
+    - openssl 3.0.15 h80987f9_0
+    - pip 24.2 py313hca03da5_0
+    - python 3.13.0 h4862095_100_cp313
+    - python_abi 3.13 0_cp313
+    - readline 8.2 h1a28f6b_0
+    - setuptools 75.1.0 py313hca03da5_0
+    - sqlite 3.45.3 h80987f9_0
+    - tk 8.6.14 h6ba3021_0
+    - toml 0.10.2 pyhd3eb1b0_0
+    - tzdata 2024b h04d1e81_0
+    - wheel 0.44.0 py313hca03da5_0
+    - xz 5.4.6 h80987f9_1
+    - zlib 1.2.13 h18a0788_1
+  run:
+    - python >=3.13,<3.14.0a0
+    - python_abi 3.13.* *_cp313
+test:
+  commands:
+    - pip check
+  imports:
+    - jaraco.context
+  requires:
+    - pip
+about:
+  dev_url: https://github.com/jaraco/jaraco.context
+  doc_url: https://jaracocontext.readthedocs.io/
+  home: https://github.com/jaraco/jaraco.context
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Context managers by jaraco
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - carlodri

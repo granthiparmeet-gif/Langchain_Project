@@ -1,0 +1,23 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "fn": "tomli-2.2.1-py313hca03da5_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "0d71bc6c7512a30d5261e5b302d2f812",
+  "name": "tomli",
+  "platform": "darwin",
+  "sha256": "fc1627e948f64c9d4e7cd3ba51ca5ba62393530f6764593ac73fa493469d3bdc",
+  "size": 36533,
+  "subdir": "osx-arm64",
+  "timestamp": 1753774746000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/tomli-2.2.1-py313hca03da5_0.conda",
+  "version": "2.2.1"
+}

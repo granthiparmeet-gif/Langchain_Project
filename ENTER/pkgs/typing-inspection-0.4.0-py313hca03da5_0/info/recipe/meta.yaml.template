@@ -1,0 +1,53 @@
+{% set name = "typing-inspection" %}
+{% set version = "0.4.0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/typing_inspection-{{ version }}.tar.gz
+  sha256: 9765c87de36671694a67904bf2c96e395be9c6439bb6c87b5142569dcdd65122
+
+build:
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  number: 0
+  skip: true   #[py<39]
+
+requirements:
+  host:
+    - python
+    - hatchling
+    - pip
+  run:
+    - python
+    - typing_extensions >=4.12.0
+
+test:
+  imports:
+    - typing_inspection
+  source_files:
+    - tests/*
+  commands:
+    - pip check
+    - pytest . -v
+  requires:
+    - pip
+    - pytest
+
+about:
+  summary: Runtime typing introspection tools
+  home: https://github.com/pydantic/typing-inspection
+  license: MIT
+  license_file: LICENSE
+  license_family: MIT
+  description: |
+    A collection of runtime typing introspection tools, including a
+    `typing_inspect` module that provides a consistent interface for
+    inspecting types across different Python versions.
+  doc_url: https://typing-inspection.readthedocs.io/
+  dev_url: https://github.com/pydantic/typing-inspection
+
+extra:
+  recipe-maintainers:
+    - jan-janssen

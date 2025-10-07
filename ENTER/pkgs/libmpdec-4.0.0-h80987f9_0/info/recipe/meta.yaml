@@ -1,0 +1,63 @@
+# This file created by conda-build 24.7.1
+# ------------------------------------------------
+
+package:
+  name: libmpdec
+  version: 4.0.0
+source:
+  patches:
+    - fix-dll-name.diff
+  sha256: 942445c3245b22730fd41a67a7c5c231d11cb1b9936b9c0f76334fb7d0b4468c
+  url: https://www.bytereef.org/software/mpdecimal/releases/mpdecimal-4.0.0.tar.gz
+build:
+  noarch: false
+  noarch_python: false
+  number: '0'
+  string: h80987f9_0
+requirements:
+  build:
+    - cctools_osx-arm64 949.0.1 h332cad3_25
+    - clang 14.0.6 hca03da5_1
+    - clang-14 14.0.6 default_h1b80db6_1
+    - clang_osx-arm64 14.0.6 h9ff6fda_0
+    - clangxx 14.0.6 default_h1b80db6_1
+    - compiler-rt 14.0.6 h4ccfd99_0
+    - compiler-rt_osx-arm64 14.0.6 h4fb70ea_0
+    - ld64_osx-arm64 530 h001ce53_25
+    - ldid 2.1.5 h20b2a84_3
+    - libclang-cpp14 14.0.6 default_h1b80db6_1
+    - libcxx 14.0.6 h848a8c0_0
+    - libffi 3.4.4 hca03da5_1
+    - libllvm14 14.0.6 h7ec7a93_3
+    - llvm-tools 14.0.6 hfd8c8a6_3
+    - tapi 1100.0.11 h8754e6a_1
+    - zlib 1.2.13 h18a0788_1
+  run: []
+test:
+  commands:
+    - test -f ${PREFIX}/lib/libmpdec.4.dylib
+about:
+  description: 'libmpdec is a fast C library for correctly-rounded arbitrary precision
+    decimal floating point
+
+    arithmetic. It is a complete implementation of Mike Cowlishaw/IBM''s
+
+    General Decimal Arithmetic Specification.
+
+    '
+  dev_url: https://www.bytereef.org/mpdecimal/download.html
+  doc_url: https://www.bytereef.org/mpdecimal/index.html
+  home: https://www.bytereef.org/mpdecimal/index.html
+  license: BSD-2-Clause
+  license_family: BSD
+  license_file: COPYRIGHT.txt
+  summary: A package for correctly-rounded arbitrary precision decimal floating point
+    arithmetic
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: d3f6a354-a55d-45c9-a28b-97ee26498dfe
+  recipe-maintainers:
+    - isuruf
+  remote_url: git@github.com:AnacondaRecipes/mpdecimal-feedstock.git
+  sha: 765d0b3f93bd70305a5e61c91a167ceab6b93428

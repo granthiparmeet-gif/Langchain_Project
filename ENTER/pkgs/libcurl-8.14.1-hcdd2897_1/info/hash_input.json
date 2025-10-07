@@ -1,0 +1,16 @@
+{
+  "c_stdlib": "macosx_deployment_target",
+  "c_stdlib_version": "11.1",
+  "libnghttp2": "1",
+  "channel_targets": "defaults",
+  "c_compiler_version": "14",
+  "krb5": "1.21",
+  "c_compiler": "clang",
+  "libssh2": "1",
+  "target_platform": "osx-arm64",
+  "openssl": "3",
+  "CONDA_BUILD_SYSROOT": "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+  "zstd": "1.5",
+  "zlib": "1.2",
+  "__osx": "__osx >=11.1"
+}

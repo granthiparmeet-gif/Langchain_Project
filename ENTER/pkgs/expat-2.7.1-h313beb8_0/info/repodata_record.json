@@ -1,0 +1,22 @@
+{
+  "arch": "arm64",
+  "build": "h313beb8_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "libcxx >=14.0.6"
+  ],
+  "fn": "expat-2.7.1-h313beb8_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "956c3776534a08f4037170d90c6e8b67",
+  "name": "expat",
+  "platform": "darwin",
+  "sha256": "a6c4e675e8903418fa395ac3998aceb0d98e60031add4de1280b2663f6506d25",
+  "size": 160099,
+  "subdir": "osx-arm64",
+  "timestamp": 1744659879000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/expat-2.7.1-h313beb8_0.conda",
+  "version": "2.7.1"
+}

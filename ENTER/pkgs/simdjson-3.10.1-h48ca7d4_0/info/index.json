@@ -1,0 +1,15 @@
+{
+  "arch": "arm64",
+  "build": "h48ca7d4_0",
+  "build_number": 0,
+  "depends": [
+    "libcxx >=14.0.6"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "name": "simdjson",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1734048107599,
+  "version": "3.10.1"
+}

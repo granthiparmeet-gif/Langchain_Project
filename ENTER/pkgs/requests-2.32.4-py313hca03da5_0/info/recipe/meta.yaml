@@ -1,0 +1,98 @@
+# This file created by conda-build 24.9.0
+# meta.yaml template originally from:
+# /var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_6fxef5l5oe/clone/recipe, last modified Fri Jun 20 08:32:22 2025
+# ------------------------------------------------
+
+package:
+  name: requests
+  version: 2.32.4
+source:
+  sha256: 27d0316682c8a29834d3264820024b62a36942083d52caf2f14c0591336d3422
+  url: https://pypi.org/packages/source/r/requests/requests-2.32.4.tar.gz
+build:
+  number: '0'
+  script: /var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_6fxef5l5oe/croot/requests_1750426350797/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+    -m pip install . --no-deps --no-build-isolation -vv
+  string: py313hca03da5_0
+requirements:
+  host:
+    - bzip2 1.0.8 h80987f9_6
+    - ca-certificates 2025.2.25 hca03da5_0
+    - expat 2.7.1 h313beb8_0
+    - libcxx 17.0.6 he5c5206_3
+    - libffi 3.4.4 hca03da5_1
+    - libmpdec 4.0.0 h80987f9_0
+    - ncurses 6.4 h313beb8_0
+    - openssl 3.0.16 h02f6b3c_0
+    - pip 25.1 pyhc872135_2
+    - python 3.13.5 h2eb94d5_100_cp313
+    - python_abi 3.13 0_cp313
+    - readline 8.2 h1a28f6b_0
+    - setuptools 78.1.1 py313hca03da5_0
+    - sqlite 3.45.3 h80987f9_0
+    - tk 8.6.14 h6ba3021_1
+    - tzdata 2025b h04d1e81_0
+    - wheel 0.45.1 py313hca03da5_0
+    - xz 5.6.4 h80987f9_1
+    - zlib 1.2.13 h18a0788_1
+  run:
+    - certifi >=2017.4.17
+    - charset-normalizer >=2,<4
+    - idna >=2.5,<4
+    - python >=3.13,<3.14.0a0
+    - python_abi 3.13.* *_cp313
+    - urllib3 >=1.21.1,<3
+  run_constrained:
+    - chardet >=3.0.2,<6
+    - pysocks >=1.5.6,!=1.5.7
+test:
+  commands:
+    - pip check
+    - conda create -v --dry-run -n requests-test numpy
+    - "pytest -v  \\\n  -k \"not (test_use_proxy_from_environment or TestRequests\
+      \ or TestTimeout \\\n  or test_requests_are_updated_each_time or tests/test_requests.py::test_urllib3_retries\
+      \ \\\n  or tests/test_requests.py::test_urllib3_pool_connection_closed or TestPreparingURLs\
+      \ \\\n  or test_content_length_for_bytes_data or test_content_length_for_string_data_counts_bytes\
+      \ \\\n  or test_urllib3_retries or test_urllib3_pool_connection_closed)\"\n"
+  imports:
+    - requests
+  requires:
+    - conda
+    - pip
+    - pysocks >=1.5.6,!=1.5.7
+    - pytest >=6.2
+    - pytest-mock
+    - pytest-xdist
+  source_files:
+    - pyproject.toml
+    - tests
+about:
+  description: 'Requests is the only Non-GMO HTTP library for Python, safe for human
+
+    consumption.
+
+    '
+  dev_url: https://github.com/psf/requests
+  doc_url: https://requests.readthedocs.io/
+  home: https://requests.readthedocs.io
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE
+  summary: "Requests is an elegant and simple HTTP library for Python, built with\
+    \ \u2665."
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 6f175fa5-cb57-41fb-8808-eb2ecd54957a
+  recipe-maintainers:
+    - carlodri
+    - jakirkham
+    - kalefranz
+    - mcg1969
+    - mingwandroid
+    - msarahan
+    - ocefpaf
+    - pelson
+    - sigmavirus24
+  remote_url: git@github.com:AnacondaRecipes/requests-feedstock.git
+  sha: 31ba5996b6bbba63d6a623ea7611cdaf4105c776

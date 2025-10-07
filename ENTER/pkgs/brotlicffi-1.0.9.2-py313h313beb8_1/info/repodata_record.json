@@ -1,0 +1,24 @@
+{
+  "arch": "arm64",
+  "build": "py313h313beb8_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "cffi >=1.0.0",
+    "libcxx >=14.0.6",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "fn": "brotlicffi-1.0.9.2-py313h313beb8_1.conda",
+  "license": "MIT",
+  "md5": "89dbd0d5551615408c674d390237e309",
+  "name": "brotlicffi",
+  "platform": "darwin",
+  "sha256": "5ca8515d702e3abb4945c2018008f2f213b18fb7e7a80a76109965c25a98e0ea",
+  "size": 382206,
+  "subdir": "osx-arm64",
+  "timestamp": 1736182765000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/brotlicffi-1.0.9.2-py313h313beb8_1.conda",
+  "version": "1.0.9.2"
+}

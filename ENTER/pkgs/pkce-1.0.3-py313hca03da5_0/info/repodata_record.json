@@ -1,0 +1,23 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "fn": "pkce-1.0.3-py313hca03da5_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "5c6344029e52293764fd4f88d6216c07",
+  "name": "pkce",
+  "platform": "darwin",
+  "sha256": "7f72d05283b2b08fd54b37502d60abd66d5592faaaa9393f1bd411f67fbe19ba",
+  "size": 9307,
+  "subdir": "osx-arm64",
+  "timestamp": 1728592695000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/pkce-1.0.3-py313hca03da5_0.conda",
+  "version": "1.0.3"
+}

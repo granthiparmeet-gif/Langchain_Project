@@ -1,0 +1,11 @@
+#!/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_be9at15ui5/croot/keyring_1745484704517/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin/python
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from keyring.cli import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

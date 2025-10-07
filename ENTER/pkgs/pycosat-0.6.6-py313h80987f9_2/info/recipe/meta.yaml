@@ -1,0 +1,105 @@
+# This file created by conda-build 24.9.0
+# meta.yaml template originally from:
+# /var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_61k1o_oje7/clone/recipe, last modified Tue Jan 14 09:26:50 2025
+# ------------------------------------------------
+
+package:
+  name: pycosat
+  version: 0.6.6
+source:
+  patches:
+    - patches/0001-GH-100-Replace-unittest.makeSuite-with-unittest.defaultTest.patch
+  sha256: b0014986321e77a36d8fe24827698aae076500c817133a700608bd677b77a998
+  url: https://github.com/conda/pycosat/archive/0.6.6.tar.gz
+build:
+  number: '2'
+  script: /var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_61k1o_oje7/croot/pycosat_1736868429741/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin/python
+    -m pip install . --no-deps -vv --no-build-isolation
+  string: py313h80987f9_2
+requirements:
+  build:
+    - cctools_osx-arm64 949.0.1 h332cad3_25
+    - clang 14.0.6 hca03da5_2
+    - clang-14 14.0.6 default_h1b80db6_2
+    - clang_osx-arm64 14.0.6 h9ff6fda_0
+    - clangxx 14.0.6 default_h1b80db6_2
+    - compiler-rt 14.0.6 h4ccfd99_0
+    - compiler-rt_osx-arm64 14.0.6 h4fb70ea_0
+    - ld64_osx-arm64 530 h001ce53_25
+    - ldid 2.1.5 h20b2a84_3
+    - libclang-cpp14 14.0.6 default_h1b80db6_2
+    - libcxx 14.0.6 h848a8c0_0
+    - libffi 3.4.4 hca03da5_1
+    - libllvm14 14.0.6 h19fdd8a_4
+    - llvm-tools 14.0.6 h7ec7a93_4
+    - patch 2.7.6 h1a28f6b_1001
+    - tapi 1100.0.11 h8754e6a_1
+    - zlib 1.2.13 h18a0788_1
+  host:
+    - bzip2 1.0.8 h80987f9_6
+    - ca-certificates 2024.12.31 hca03da5_0
+    - expat 2.6.4 h313beb8_0
+    - libcxx 14.0.6 h848a8c0_0
+    - libffi 3.4.4 hca03da5_1
+    - libmpdec 4.0.0 h80987f9_0
+    - ncurses 6.4 h313beb8_0
+    - openssl 3.0.15 h80987f9_0
+    - pip 24.2 py313hca03da5_0
+    - python 3.13.1 h4862095_100_cp313
+    - python_abi 3.13 0_cp313
+    - readline 8.2 h1a28f6b_0
+    - setuptools 75.1.0 py313hca03da5_0
+    - sqlite 3.45.3 h80987f9_0
+    - tk 8.6.14 h6ba3021_0
+    - tzdata 2024b h04d1e81_0
+    - wheel 0.44.0 py313hca03da5_0
+    - xz 5.4.6 h80987f9_1
+    - zlib 1.2.13 h18a0788_1
+  run:
+    - python >=3.13,<3.14.0a0
+    - python_abi 3.13.* *_cp313
+test:
+  commands:
+    - pip check
+    - python test_package.py "0.6.6"
+  files:
+    - qg3-08.cnf
+    - sudoku.py
+    - test_package.py
+    - uf20-098.cnf
+  imports:
+    - pycosat
+  requires:
+    - pip
+about:
+  description: 'PicoSAT is a popular SAT solver written by Armin Biere in pure C.
+    This
+
+    package provides efficient Python bindings to picosat on the C level, i.e.
+
+    when importing pycosat, the picosat solver becomes part of the Python
+
+    process itself.
+
+    '
+  dev_url: https://github.com/conda/pycosat
+  doc_url: https://github.com/conda/pycosat/blob/master/README.rst
+  home: https://github.com/conda/pycosat
+  license: MIT
+  license_family: MIT
+  license_url: https://github.com/conda/pycosat/blob/0.6.6/LICENSE
+  summary: Bindings to picosat (a SAT solver)
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 616a48c4-98df-417a-8800-5b5d08c16b4f
+  recipe-maintainers:
+    - jakirkham
+    - kalefranz
+    - mcg1969
+    - mingwandroid
+    - msarahan
+    - nehaljwani
+    - pelson
+  remote_url: git@github.com:AnacondaRecipes/pycosat-feedstock.git
+  sha: 3b293122c88ae0e420700408e363b20fb0b58a35

@@ -1,0 +1,81 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "conda-package-streaming >=0.9.0",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313",
+    "zstandard >=0.15"
+  ],
+  "extracted_package_dir": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/conda-package-handling-2.4.0-py313hca03da5_0",
+  "files": [
+    "bin/cph",
+    "lib/python3.13/site-packages/conda_package_handling-2.4.0.dist-info/AUTHORS.md",
+    "lib/python3.13/site-packages/conda_package_handling-2.4.0.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/conda_package_handling-2.4.0.dist-info/LICENSE",
+    "lib/python3.13/site-packages/conda_package_handling-2.4.0.dist-info/METADATA",
+    "lib/python3.13/site-packages/conda_package_handling-2.4.0.dist-info/RECORD",
+    "lib/python3.13/site-packages/conda_package_handling-2.4.0.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/conda_package_handling-2.4.0.dist-info/WHEEL",
+    "lib/python3.13/site-packages/conda_package_handling-2.4.0.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/conda_package_handling-2.4.0.dist-info/entry_points.txt",
+    "lib/python3.13/site-packages/conda_package_handling-2.4.0.dist-info/top_level.txt",
+    "lib/python3.13/site-packages/conda_package_handling/__init__.py",
+    "lib/python3.13/site-packages/conda_package_handling/__main__.py",
+    "lib/python3.13/site-packages/conda_package_handling/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/conda_package_handling/__pycache__/__main__.cpython-313.pyc",
+    "lib/python3.13/site-packages/conda_package_handling/__pycache__/api.cpython-313.pyc",
+    "lib/python3.13/site-packages/conda_package_handling/__pycache__/cli.cpython-313.pyc",
+    "lib/python3.13/site-packages/conda_package_handling/__pycache__/conda_fmt.cpython-313.pyc",
+    "lib/python3.13/site-packages/conda_package_handling/__pycache__/exceptions.cpython-313.pyc",
+    "lib/python3.13/site-packages/conda_package_handling/__pycache__/interface.cpython-313.pyc",
+    "lib/python3.13/site-packages/conda_package_handling/__pycache__/streaming.cpython-313.pyc",
+    "lib/python3.13/site-packages/conda_package_handling/__pycache__/tarball.cpython-313.pyc",
+    "lib/python3.13/site-packages/conda_package_handling/__pycache__/utils.cpython-313.pyc",
+    "lib/python3.13/site-packages/conda_package_handling/__pycache__/validate.cpython-313.pyc",
+    "lib/python3.13/site-packages/conda_package_handling/api.py",
+    "lib/python3.13/site-packages/conda_package_handling/cli.py",
+    "lib/python3.13/site-packages/conda_package_handling/conda_fmt.py",
+    "lib/python3.13/site-packages/conda_package_handling/exceptions.py",
+    "lib/python3.13/site-packages/conda_package_handling/interface.py",
+    "lib/python3.13/site-packages/conda_package_handling/streaming.py",
+    "lib/python3.13/site-packages/conda_package_handling/tarball.py",
+    "lib/python3.13/site-packages/conda_package_handling/utils.py",
+    "lib/python3.13/site-packages/conda_package_handling/validate.py"
+  ],
+  "fn": "conda-package-handling-2.4.0-py313hca03da5_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/conda-package-handling-2.4.0-py313hca03da5_0",
+    "type": 1
+  },
+  "md5": "dc91395b515fb7bfc7b38fbc9b0e98a5",
+  "name": "conda-package-handling",
+  "package_tarball_full_path": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/conda-package-handling-2.4.0-py313hca03da5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/cph",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_82jv6q9ech/croot/conda-package-handling_1731369032774/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "e0e518954ee129d40653af157191e741bb010663c36d3aa08bdb497214240e90",
+        "sha256_in_prefix": "30eb6b0f45bbc8f741526f3ed9c635fa932a4c3c9b4b65a020f53475037e53b2",
+        "size_in_bytes": 479
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "defaults/osx-arm64::conda-package-handling==2.4.0=py313hca03da5_0[md5=dc91395b515fb7bfc7b38fbc9b0e98a5]",
+  "sha256": "f78be7f0925395dcf3d402a957524794a7ce599293bb7b57bd4507654214e506",
+  "size": 290564,
+  "subdir": "osx-arm64",
+  "timestamp": 1731369132000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/conda-package-handling-2.4.0-py313hca03da5_0.conda",
+  "version": "2.4.0"
+}

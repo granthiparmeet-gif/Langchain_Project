@@ -1,0 +1,90 @@
+# This file created by conda-build 24.9.0
+# meta.yaml template originally from:
+# /var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_14q9fvz_55/clone/recipe, last modified Wed Aug  6 08:06:48 2025
+# ------------------------------------------------
+
+package:
+  name: readline
+  version: '8.3'
+source:
+  patches:
+    - patches/readline83-001.patch
+  sha256: fe5383204467828cd495ee8d1d3c037a7eba1389c22bc6a041f627976f9061cc
+  url: https://ftp.gnu.org/gnu/readline/readline-8.3.tar.gz
+build:
+  number: '0'
+  run_exports:
+    - readline >=8.3,<9.0a0
+  string: h0b18652_0
+requirements:
+  build:
+    - cctools_osx-arm64 949.0.1 h69e4071_26
+    - clang 14.0.6 hca03da5_2
+    - clang-14 14.0.6 default_h1b80db6_2
+    - clang_osx-arm64 14.0.6 h9ff6fda_0
+    - clangxx 14.0.6 default_h1b80db6_2
+    - compiler-rt 14.0.6 h4ccfd99_0
+    - compiler-rt_osx-arm64 14.0.6 h4fb70ea_0
+    - ld64_osx-arm64 530 hac4b543_26
+    - ldid 2.1.5 h20b2a84_3
+    - libclang-cpp14 14.0.6 default_h1b80db6_2
+    - libcxx 14.0.6 h848a8c0_0
+    - libffi 3.4.4 hca03da5_1
+    - libiconv 1.16 h80987f9_3
+    - libllvm14 14.0.6 h19fdd8a_4
+    - llvm-tools 14.0.6 h7ec7a93_4
+    - macosx_deployment_target_osx-arm64 11.1 had524d6_1
+    - make 4.3 h620ffc9_1
+    - patch 2.7.6 h1a28f6b_1001
+    - pkg-config 0.29.2 h1a28f6b_0
+    - tapi 1100.0.11 h8754e6a_1
+    - zlib 1.2.13 h18a0788_1
+  host:
+    - ncurses 6.5 hee39554_0
+  run:
+    - __osx >=11.1
+    - ncurses >=6.5,<7.0a0
+test:
+  commands:
+    - test -f ${PREFIX}/lib/libreadline.a
+    - test -f ${PREFIX}/lib/libreadline${SHLIB_EXT}
+    - test -f ${PREFIX}/lib/libhistory.a
+    - test -f ${PREFIX}/lib/libhistory${SHLIB_EXT}
+    - python -c "import readline"
+  requires:
+    - python 3.*
+about:
+  description: 'The GNU Readline library provides a set of functions for use by applications
+
+    that allow users to edit command lines as they are typed in.
+
+    The Readline library includes additional functions to maintain a list of previously-entered
+    command lines,
+
+    to recall and perhaps reedit those lines, and perform csh-like history expansion
+    on previous commands.
+
+    '
+  dev_url: https://git.savannah.gnu.org/cgit/readline.git
+  doc_url: https://tiswww.case.edu/php/chet/readline/rltop.html
+  home: https://tiswww.case.edu/php/chet/readline/rltop.html
+  license: GPL-3.0-only
+  license_family: GPL
+  license_file: COPYING
+  summary: library for editing command lines as they are typed in
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 14872cd9-ba83-4b45-ac4d-cd6ebeddb226
+  recipe-maintainers:
+    - asmeurer
+    - croth1
+    - jakirkham
+    - jjhelmus
+    - mingwandroid
+    - msarahan
+    - msarahan
+    - ocefpaf
+    - pelson
+  remote_url: git@github.com:AnacondaRecipes/readline-feedstock.git
+  sha: 697ae3037b1ae978a8a62fd9ea79d07fa9099983

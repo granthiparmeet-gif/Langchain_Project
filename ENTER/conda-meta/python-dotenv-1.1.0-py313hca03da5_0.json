@@ -1,0 +1,74 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "click >=5.0",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "extracted_package_dir": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/python-dotenv-1.1.0-py313hca03da5_0",
+  "files": [
+    "bin/dotenv",
+    "lib/python3.13/site-packages/dotenv/__init__.py",
+    "lib/python3.13/site-packages/dotenv/__main__.py",
+    "lib/python3.13/site-packages/dotenv/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/dotenv/__pycache__/__main__.cpython-313.pyc",
+    "lib/python3.13/site-packages/dotenv/__pycache__/cli.cpython-313.pyc",
+    "lib/python3.13/site-packages/dotenv/__pycache__/ipython.cpython-313.pyc",
+    "lib/python3.13/site-packages/dotenv/__pycache__/main.cpython-313.pyc",
+    "lib/python3.13/site-packages/dotenv/__pycache__/parser.cpython-313.pyc",
+    "lib/python3.13/site-packages/dotenv/__pycache__/variables.cpython-313.pyc",
+    "lib/python3.13/site-packages/dotenv/__pycache__/version.cpython-313.pyc",
+    "lib/python3.13/site-packages/dotenv/cli.py",
+    "lib/python3.13/site-packages/dotenv/ipython.py",
+    "lib/python3.13/site-packages/dotenv/main.py",
+    "lib/python3.13/site-packages/dotenv/parser.py",
+    "lib/python3.13/site-packages/dotenv/py.typed",
+    "lib/python3.13/site-packages/dotenv/variables.py",
+    "lib/python3.13/site-packages/dotenv/version.py",
+    "lib/python3.13/site-packages/python_dotenv-1.1.0.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/python_dotenv-1.1.0.dist-info/LICENSE",
+    "lib/python3.13/site-packages/python_dotenv-1.1.0.dist-info/METADATA",
+    "lib/python3.13/site-packages/python_dotenv-1.1.0.dist-info/RECORD",
+    "lib/python3.13/site-packages/python_dotenv-1.1.0.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/python_dotenv-1.1.0.dist-info/WHEEL",
+    "lib/python3.13/site-packages/python_dotenv-1.1.0.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/python_dotenv-1.1.0.dist-info/entry_points.txt",
+    "lib/python3.13/site-packages/python_dotenv-1.1.0.dist-info/top_level.txt"
+  ],
+  "fn": "python-dotenv-1.1.0-py313hca03da5_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/python-dotenv-1.1.0-py313hca03da5_0",
+    "type": 1
+  },
+  "md5": "6b9441155abb478544865bde19c3d6d2",
+  "name": "python-dotenv",
+  "package_tarball_full_path": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/python-dotenv-1.1.0-py313hca03da5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/dotenv",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_0bqseadoho/croot/python-dotenv_1745610246418/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "0fdd26c34b567af8f399e059b4f3e144c8d5710546d8ff50867abd0fa87d47db",
+        "sha256_in_prefix": "bf9c077653be90dafe72c0368eaae37ae026c6ab6c02b727926b9a7013e518f1",
+        "size_in_bytes": 466
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "defaults/osx-arm64::python-dotenv==1.1.0=py313hca03da5_0[md5=6b9441155abb478544865bde19c3d6d2]",
+  "sha256": "ee575a10247f4d8acc6672a4a639f9027e659b7da461bb47e7f25bdac27721de",
+  "size": 48976,
+  "subdir": "osx-arm64",
+  "timestamp": 1745610344000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/python-dotenv-1.1.0-py313hca03da5_0.conda",
+  "version": "1.1.0"
+}

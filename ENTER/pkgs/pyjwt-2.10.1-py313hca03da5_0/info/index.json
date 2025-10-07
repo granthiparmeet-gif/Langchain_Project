@@ -1,0 +1,19 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "constrains": [
+    "cryptography >=3.4.0"
+  ],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "pyjwt",
+  "platform": "osx",
+  "subdir": "osx-arm64",
+  "timestamp": 1739484698446,
+  "version": "2.10.1"
+}

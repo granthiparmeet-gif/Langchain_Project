@@ -1,0 +1,23 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "fn": "pluggy-1.5.0-py313hca03da5_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "1c97163ea30cd6a5c786f9ae9905df9b",
+  "name": "pluggy",
+  "platform": "darwin",
+  "sha256": "82930e09ec509b3202e5fa25d8105ced724217df4d123f5bbe75edc640bd23d7",
+  "size": 48845,
+  "subdir": "osx-arm64",
+  "timestamp": 1733169732000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/pluggy-1.5.0-py313hca03da5_0.conda",
+  "version": "1.5.0"
+}

@@ -1,0 +1,61 @@
+{
+  "arch": "arm64",
+  "build": "h313beb8_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=14.0.6"
+  ],
+  "extracted_package_dir": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/expat-2.7.1-h313beb8_0",
+  "files": [
+    "bin/xmlwf",
+    "include/expat.h",
+    "include/expat_config.h",
+    "include/expat_external.h",
+    "lib/cmake/expat-2.7.1/expat-config-version.cmake",
+    "lib/cmake/expat-2.7.1/expat-config.cmake",
+    "lib/cmake/expat-2.7.1/expat-noconfig.cmake",
+    "lib/cmake/expat-2.7.1/expat.cmake",
+    "lib/libexpat.1.10.2.dylib",
+    "lib/libexpat.1.dylib",
+    "lib/libexpat.a",
+    "lib/libexpat.dylib",
+    "lib/pkgconfig/expat.pc",
+    "share/doc/expat/AUTHORS",
+    "share/doc/expat/changelog",
+    "share/man/man1/xmlwf.1"
+  ],
+  "fn": "expat-2.7.1-h313beb8_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/expat-2.7.1-h313beb8_0",
+    "type": 1
+  },
+  "md5": "956c3776534a08f4037170d90c6e8b67",
+  "name": "expat",
+  "package_tarball_full_path": "/Users/parmeetsingh/Desktop/Langchain- Projects/ENTER/pkgs/expat-2.7.1-h313beb8_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/expat.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_2alydm3lm2/croot/expat_1744659823361/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "fac62f131b510d86f022d7b04d197885b6a085562acf767ec235f91ef01e1c6f",
+        "sha256_in_prefix": "2635d4b4e17c60235d0a2aede6ffffa662bc444df225162c58addeae5647332b",
+        "size_in_bytes": 525
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "defaults/osx-arm64::expat==2.7.1=h313beb8_0[md5=956c3776534a08f4037170d90c6e8b67]",
+  "sha256": "a6c4e675e8903418fa395ac3998aceb0d98e60031add4de1280b2663f6506d25",
+  "size": 160099,
+  "subdir": "osx-arm64",
+  "timestamp": 1744659879000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/expat-2.7.1-h313beb8_0.conda",
+  "version": "2.7.1"
+}

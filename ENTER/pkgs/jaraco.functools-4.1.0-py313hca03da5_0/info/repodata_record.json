@@ -1,0 +1,24 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "more-itertools",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "fn": "jaraco.functools-4.1.0-py313hca03da5_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "963213853588734c1d6e2dee962f6e07",
+  "name": "jaraco.functools",
+  "platform": "darwin",
+  "sha256": "f56fd6dff8cc8909a7817722928111b1a1b65a8775f8237bc2364c0e042130f4",
+  "size": 25309,
+  "subdir": "osx-arm64",
+  "timestamp": 1740408239000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/jaraco.functools-4.1.0-py313hca03da5_0.conda",
+  "version": "4.1.0"
+}

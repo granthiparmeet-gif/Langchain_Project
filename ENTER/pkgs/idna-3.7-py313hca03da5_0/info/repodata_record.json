@@ -1,0 +1,23 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "fn": "idna-3.7-py313hca03da5_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "b9dcb7135c6b32a7ede4e3bc7d808df6",
+  "name": "idna",
+  "platform": "darwin",
+  "sha256": "beed3d89f6a8a057fcc9b920448a7dd2ae37aaf0c237fef265024f923128f49e",
+  "size": 106706,
+  "subdir": "osx-arm64",
+  "timestamp": 1728585935000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/idna-3.7-py313hca03da5_0.conda",
+  "version": "3.7"
+}

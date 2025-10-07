@@ -1,0 +1,30 @@
+{
+  "arch": "arm64",
+  "build": "py313hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64/",
+  "constrains": [
+    "chardet >=3.0.2,<6",
+    "pysocks >=1.5.6,!=1.5.7"
+  ],
+  "depends": [
+    "certifi >=2017.4.17",
+    "charset-normalizer >=2,<4",
+    "idna >=2.5,<4",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313",
+    "urllib3 >=1.21.1,<3"
+  ],
+  "fn": "requests-2.32.4-py313hca03da5_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "4b30c011820db4b25105c8bfd0c17851",
+  "name": "requests",
+  "platform": "darwin",
+  "sha256": "7e1d03094d087236aa93ee4e9fe831615a03a1b321e0c44845fc882025123e30",
+  "size": 182683,
+  "subdir": "osx-arm64",
+  "timestamp": 1750426380000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/requests-2.32.4-py313hca03da5_0.conda",
+  "version": "2.32.4"
+}
