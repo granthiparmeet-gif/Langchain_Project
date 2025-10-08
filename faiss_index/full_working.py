@@ -33,7 +33,6 @@ texts = [
 embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
 
 vectors = embeddings.embed_documents(texts)
-
 ids = [f"id-{i}" for i in range(len(texts))]
 metas = [{"text": t} for t in texts]
 
@@ -49,3 +48,5 @@ print(f"Query: {query_text}")
 
 for m in results["matches"]:
     print(f"{m['metadata']['text']} = {m['score']}")
+
+    
