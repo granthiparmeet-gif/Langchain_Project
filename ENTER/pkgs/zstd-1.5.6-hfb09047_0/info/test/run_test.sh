@@ -1,14 +1,3 @@
-
-
-set -ex
-
-
-
-zstd -be -i5
-test -f ${PREFIX}/include/zstd.h
-test -f ${PREFIX}/lib/libzstd.a
-test -f ${PREFIX}/lib/libzstd.dylib
-export PKG_CONFIG_PATH=$PREFIX/lib/pkgconfig
-test -f ${PREFIX}/lib/pkgconfig/libzstd.pc
-pkg-config --cflags libzstd
-exit 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:384db4920bf2539f3e45096f5ff223dd1cace71620fd9ef54606c6321846f1c5
+size 250

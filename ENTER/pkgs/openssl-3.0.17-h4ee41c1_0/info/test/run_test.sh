@@ -1,12 +1,3 @@
-
-
-set -ex
-
-
-
-touch checksum.txt
-openssl sha256 checksum.txt
-openssl ecparam -name prime256v1
-python -c "import urllib.request; urllib.request.urlopen('https://pypi.org')"
-pkg-config --print-errors --exact-version "3.0.17" openssl
-exit 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:bdf719dec579e69b9d85ee283b00a297f0c68907bd1c39b21d9c440a9a65537f
+size 237

@@ -1,14 +1,3 @@
-
-
-set -ex
-
-
-
-sqlite3 --version
-test -f $PREFIX/bin/sqlite3
-test -f $PREFIX/lib/libsqlite3${SHLIB_EXT}
-test ! -f $PREFIX/lib/libsqlite3.a
-test -f $PREFIX/include/sqlite3.h
-test -f $PREFIX/include/sqlite3ext.h
-test -f $PREFIX/lib/pkgconfig/sqlite3.pc
-exit 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:6670af94b910d039ab0fa45f3ab8b40ee52ab7a6938f37de87f88f52df0581a4
+size 256

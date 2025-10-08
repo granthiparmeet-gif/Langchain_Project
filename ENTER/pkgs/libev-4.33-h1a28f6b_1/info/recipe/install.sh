@@ -1,14 +1,3 @@
-#!/usr/bin/env bash
-
-make install
-
-if [[ "$PKG_NAME" == *static ]]; then
-	# relying on conda to dedup package
-	echo "Keeping all files, conda will dedupe"
-else
-	rm -rf ${PREFIX}/lib/libev.a
-fi
-
-if [[ "$PKG_NAME" != *-libevent ]]; then
-	rm "${PREFIX}/include/event.h"
-fi
+version https://git-lfs.github.com/spec/v1
+oid sha256:a758e0cd1bd22b026067ea4988c6ed7315fb0380af8354d7d4e3795f38093e2d
+size 270

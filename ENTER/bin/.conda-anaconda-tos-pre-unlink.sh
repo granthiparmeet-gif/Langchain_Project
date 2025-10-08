@@ -1,6 +1,3 @@
-#!/bin/sh
-
-_PREFIX="${CONDA_PREFIX:-${PREFIX:-}}"
-_PYTHON="${_PREFIX}/python.exe"
-[ -f "${_PYTHON}" ] || _PYTHON="${_PREFIX}/bin/python"
-"${_PYTHON}" -m conda tos clean --all >>"${_PREFIX}/.messages.txt" 2>&1 || :
+version https://git-lfs.github.com/spec/v1
+oid sha256:291bdba086368c1e6bb96a4bf359071fec588d148ad21f82e8c1211f7e01ed42
+size 214

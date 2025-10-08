@@ -1,10 +1,3 @@
-
-
-set -ex
-
-
-
-pip check
-python -c "from importlib.metadata import version; assert(version('certifi')=='2025.8.3')"
-pytest -vv certifi/certifi/tests
-exit 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:d8999a2bfc130f1d874cf3aa65a637327837c5c07a916dfd5cab46f65d279a10
+size 154

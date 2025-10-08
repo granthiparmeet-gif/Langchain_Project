@@ -1,14 +1,3 @@
-
-
-set -ex
-
-
-
-pip check
-SP_DIR="$(python -c 'import site; print(site.getsitepackages()[0])')"
-test -f "${SP_DIR}/menuinst/data/appkit_launcher_arm64"
-test -f "${SP_DIR}/menuinst/data/appkit_launcher_x86_64"
-test -f "${SP_DIR}/menuinst/data/osx_launcher_arm64"
-test -f "${SP_DIR}/menuinst/data/osx_launcher_x86_64"
-pytest tests/ -vvv --ignore=tests/test_schema.py --ignore=tests/test_elevation.py
-exit 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:4334bf4adf2726eb27aefd86b9b238d772d1e949afc0280ca848911f93852c92
+size 402

@@ -1,4 +1,3 @@
-if [[ "${__CONDA_OPENSLL_CERT_FILE_SET:-}" == "1" ]]; then
-    unset SSL_CERT_FILE
-    unset __CONDA_OPENSLL_CERT_FILE_SET
-fi
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a597cfb46c521b4dfc99ace069b32045c516421f3e83f76587871f85f29c272
+size 126

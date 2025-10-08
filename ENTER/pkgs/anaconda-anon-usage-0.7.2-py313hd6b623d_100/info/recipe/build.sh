@@ -1,11 +1,3 @@
-"${PREFIX}/bin/python" -m pip install --no-deps --no-build-isolation --ignore-installed -vv .
-if [ "$NEED_SCRIPTS" == no ]; then
-    rm ${SP_DIR}/anaconda_anon_usage/install.py
-    exit 0
-fi
-rm ${SP_DIR}/anaconda_anon_usage/plugin.py
-mkdir -p "${PREFIX}/etc/conda/activate.d"
-cp "scripts/activate.sh" "${PREFIX}/etc/conda/activate.d/${PKG_NAME}_activate.sh"
-mkdir -p "${PREFIX}/bin"
-cp "scripts/post-link.sh" "${PREFIX}/bin/.${PKG_NAME}-post-link.sh"
-cp "scripts/pre-unlink.sh" "${PREFIX}/bin/.${PKG_NAME}-pre-unlink.sh"
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c2a2ceb26c78cf645b81b9b1eb2f748e0fff554085b7f6b194954e38484efec
+size 521

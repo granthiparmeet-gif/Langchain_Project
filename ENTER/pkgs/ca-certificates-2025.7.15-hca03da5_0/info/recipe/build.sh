@@ -1,8 +1,3 @@
-#!/bin/bash
-
-# Create the directory to hold the certificates.
-mkdir -p "${PREFIX}/ssl"
-
-# Move the certificates.
-mv cacert.pem ${PREFIX}/ssl/cacert.pem
-ln -fs "${PREFIX}/ssl/cacert.pem" "${PREFIX}/ssl/cert.pem"
+version https://git-lfs.github.com/spec/v1
+oid sha256:727252745ba1272c46e2bfe5f4a44e3fad7e6fabc5b18a325e5afb63b202fd62
+size 211

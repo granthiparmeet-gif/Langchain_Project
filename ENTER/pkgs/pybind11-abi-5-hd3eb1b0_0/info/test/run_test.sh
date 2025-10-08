@@ -1,8 +1,3 @@
-
-
-set -ex
-
-
-
-matched=false; while read -r version; do [ "$version" -eq "5" ] && { matched=true; break; }; done < <(awk '/define PYBIND11_INTERNALS_VERSION/{print $NF}' include/pybind11/detail/internals.h); [ "$matched" = true ] && exit 0 || exit 1
-exit 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:99a49498655717108ab5717ee8d09e6acd463a0b41cdf2f5073ca2a4dc666980
+size 255

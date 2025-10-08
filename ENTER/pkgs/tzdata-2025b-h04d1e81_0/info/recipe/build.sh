@@ -1,16 +1,3 @@
-#!/bin/bash
-set -ex
-
-# by default the makefile does not install leap-seconds.list;
-# however, some implementations (e.g. libc++) rely on it so
-# we expand the default (TZDATA_TEXT=tzdata.zi leapseconds)
-
-make -e \
-  DESTDIR=./build \
-  EXPIRES_LINE=1 \
-  USRDIR='' \
-  TZDATA_TEXT='tzdata.zi leapseconds leap-seconds.list' \
-  install
-
-mkdir -p "${PREFIX}/share"
-mv ./build/share/zoneinfo "${PREFIX}/share/"
+version https://git-lfs.github.com/spec/v1
+oid sha256:1bb2cd54bd5138abc3c04876db224430b8b8c8b419aa7fa45d9493cbad6e9c0d
+size 408

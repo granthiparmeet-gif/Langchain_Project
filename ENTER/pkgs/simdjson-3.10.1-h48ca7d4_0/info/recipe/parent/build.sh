@@ -1,15 +1,3 @@
-#!/usr/bin/env bash
-#
-set -euo pipefail
-
-cmake -B build/ \
-    -G Ninja \
-    -D SIMDJSON_DEVELOPER_MODE=OFF \
-    -D SIMDJSON_BUILD_STATIC_LIB=ON \
-    -D BUILD_SHARED_LIBS=ON \
-    -D CMAKE_BUILD_TYPE=Release \
-    ${CMAKE_ARGS}
-
-cmake --build build/ --parallel "${CPU_COUNT}" --verbose
-
-cmake --install  build/
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa9631177c7b2c7824a8827181e9adfb89d3277b2a37b066881aa22f5bcce5df
+size 314

@@ -1,33 +1,3 @@
-#!/bin/bash
-
-#./autogen.sh will run configure unless you tell it not to.
-export NOCONFIGURE=1
-./autogen.sh
-
-export CFLAGS="${CFLAGS} -DTRUE=1"
-export CXXFLAGS="${CXXFLAGS} -DTRUE=1"
-
-./configure --prefix="${PREFIX}" \
-            --build=${BUILD} \
-            --host=${HOST} \
-            --with-iconv="${PREFIX}" \
-            --with-zlib="${PREFIX}" \
-            --with-icu \
-            --with-lzma="${PREFIX}" \
-            --without-python \
-            --with-legacy \
-            --enable-static=no
-make -j${CPU_COUNT} ${VERBOSE_AT}
-
-if [[ ${target_platform} != osx-64 ]]; then
-  make check ${VERBOSE_AT}
-fi
-
-make install
-
-# Remove large documentation files that can take up to 6.6/9.2MB of the install
-# size.
-# https://github.com/conda-forge/libxml2-feedstock/issues/57
-rm -rf ${PREFIX}/share/doc
-rm -rf ${PREFIX}/share/gtk-doc
-rm -rf ${PREFIX}/share/man
+version https://git-lfs.github.com/spec/v1
+oid sha256:26b41b24f7b56c13bcb9525e2adb9ca18d1e815e79e4a31570a377a9b3993642
+size 865
