@@ -57,7 +57,13 @@ results = index.query(
     # filter = {"category":"AI"}
     )
 
+index.delete(ids=["id-4"])
+print(" Deleted vector id-4 successfully.")
 
 print(f"\n Query: {query_text}\n")
 for i, m in enumerate(results["matches"], 1):
     print(f"{i}. {m['metadata']['text']} ({m['score']:.3f})")
+
+
+stats = index.describe_index_stats()
+print("\nIndex Stats:", stats)
