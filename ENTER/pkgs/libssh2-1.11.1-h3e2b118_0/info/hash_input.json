@@ -1,9 +1,0 @@
-{
-  "zlib": "1.2",
-  "target_platform": "osx-arm64",
-  "c_compiler": "clang",
-  "openssl": "3.0",
-  "channel_targets": "defaults",
-  "c_compiler_version": "14",
-  "CONDA_BUILD_SYSROOT": "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk"
-}

@@ -1,1 +1,0 @@
-["pytest >=6.2", "conda", "pytest-mock", "pip", "pytest-xdist", "pysocks >=1.5.6,!=1.5.7"]

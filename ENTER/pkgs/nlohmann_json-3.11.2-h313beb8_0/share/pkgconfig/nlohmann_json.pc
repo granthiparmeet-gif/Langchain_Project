@@ -1,4 +1,0 @@
-Name: nlohmann_json
-Description: JSON for Modern C++
-Version: 3.11.2
-Cflags: -I/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_54q0wtkt6i/croot/nlohmann_json_1680082026059/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/include
