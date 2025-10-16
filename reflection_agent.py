@@ -17,7 +17,7 @@ generate_prompt= ChatPromptTemplate.from_messages([
 reflection_prompt = ChatPromptTemplate.from_messages([
     ("system","You are a viral twitter inflencer who is grading tweets."
     "Generate critique and recommendations based for the users tweet."
-    "Always provide detailed recommendations, including recommendations for style, length, virality etc"),
+    "Always provide detailed recommendations, length, virality etc"),
     MessagesPlaceholder(variable_name="messages")
 ])
 
