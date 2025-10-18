@@ -7,7 +7,7 @@ load_dotenv()
 llm = ChatOpenAI()
 
 
-summar_prompt = ChatPromptTemplate.from_template("Write the summary about given {text}")
+summar_prompt = ChatPromptTemplate.from_template("Write the summary about {text}")
 summar_chain = summar_prompt | llm
 
 senti_prompt = ChatPromptTemplate.from_template("Write the sentiment about  {text}")
